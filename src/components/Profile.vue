@@ -1,5 +1,5 @@
 <template>
-<nav> <!--navbar-->
+   <nav> <!--navbar-->
       <div>
         <ul>
           <li>
@@ -37,8 +37,8 @@
         </ul>
       </div>
     </nav><!--end of navbar-->
-    <section class="h-100 gradient-custom-2">
-  <div class="container py-5 h-100">
+<section class="h-100 gradient-custom-2">
+   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col col-lg-9 col-xl-7">
         <div class="card">
@@ -114,5 +114,6 @@
 </section>
 </template>
 <style>
+@import'../assets/asset/css/navbar.css';
 @import'../assets/asset/css/Profile.css';
 </style>

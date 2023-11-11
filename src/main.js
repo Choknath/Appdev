@@ -6,6 +6,9 @@ import { loadFonts } from './plugins/webfontloader'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import'bootstrap/dist/js/bootstrap.min.js'
 import 'font-awesome/css/font-awesome.min.css';
+import axios from 'axios'
+
+axios.default.baseUrl='http://cyclistbackend.test/'
 
 loadFonts()
 

@@ -12,7 +12,7 @@
     name: 'ProfilePage',
   
     components: {
-      Profile,
+      Profile,  
     },
   });
   </script>
