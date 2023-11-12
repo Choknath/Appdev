@@ -39,6 +39,15 @@
         </ul>
       </div>
     </nav><!--end of navbar-->
+    
+    <div>
+    <h1>Posts</h1>
+    <ul>
+      <li v-for="post in posts" :key="post.id">
+        {{ post.content }}
+      </li>
+    </ul>
+  </div>
   </body>
   </template>
 
@@ -46,3 +55,24 @@
 @import'../assets/asset/css/navbar.css';
 
 </style>
+
+<script>
+export default {
+  data() {
+    return {
+      posts: [],
+    };
+  },
+  created() {
+    // Fetch posts from your CodeIgniter API
+    fetch('http://your-api-url/auth')
+      .then((response) => response.json())
+      .then((data) => {
+        this.posts = data;
+      })
+      .catch((error) => {
+        console.error('Error fetching posts: ', error);
+      });
+  },
+};
+</script>
