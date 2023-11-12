@@ -40,14 +40,7 @@
       </div>
     </nav><!--end of navbar-->
     
-    <div>
-
-    <ul>
-      <li v-for="post in posts" :key="post.id">
-        {{ post.content }}
-      </li>
-    </ul>
-  </div>
+    
   </body>
   </template>
 
