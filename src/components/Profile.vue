@@ -3,7 +3,7 @@
       <div>
         <ul>
           <li>
-            <a href="/">
+            <a href="/Home">
               <div class="icon">
                 <i class="fa fa-users" aria-hidden="true"></i>
               </div>
@@ -117,3 +117,23 @@
 @import'../assets/asset/css/navbar.css';
 @import'../assets/asset/css/Profile.css';
 </style>
+
+<script>
+import axios from 'axios';
+export default{
+  data(){
+    return{
+      info:[],
+    }
+  },
+  methods:{
+    async getInfo(){
+      try {
+        const inf = await axios.get('getData')
+      } catch (error) {
+        
+      }
+    }
+  }
+}
+</script>

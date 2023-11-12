@@ -15,7 +15,7 @@
       <div>
         <ul>
           <li>
-            <a href="/">
+            <a href="/Home">
               <div class="icon">
                 <i class="fa fa-users" aria-hidden="true"></i>
               </div>
