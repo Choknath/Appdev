@@ -1,0 +1,23 @@
+CRITICAL - 2023-11-12 03:14:55 --> Undefined variable $UserModel
+in APPPATH\Controllers\AuthController.php on line 17.
+ 1 APPPATH\Controllers\AuthController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UserModel', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\AuthController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:18:01 --> Unmatched '}'
+in APPPATH\Controllers\AuthController.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Appdev\\app\\Controllers\\AuthController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AuthController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AuthController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\AuthController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-12 03:18:14 --> Undefined variable $userModel
+in APPPATH\Controllers\AuthController.php on line 18.
+ 1 APPPATH\Controllers\AuthController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\AuthController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AuthController->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
