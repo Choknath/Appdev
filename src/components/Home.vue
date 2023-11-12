@@ -41,7 +41,7 @@
     </nav><!--end of navbar-->
     
     <div>
-    <h1>Posts</h1>
+
     <ul>
       <li v-for="post in posts" :key="post.id">
         {{ post.content }}
