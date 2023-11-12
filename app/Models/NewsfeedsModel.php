@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UserModel extends Model
+class NewsfeedsModel extends Model
 {
-    protected $table            = 'users';
-    protected $primaryKey       = 'UserID';
+    protected $table            = 'newsfeeds';
+    protected $primaryKey       = 'NewsfeedID';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['Username','PasswordHash','Email','ProfileImageURL'];
+    protected $allowedFields    = ['UserID','Content','PostDate'];
 
     // Dates
     protected $useTimestamps = false;
@@ -22,7 +22,6 @@ class UserModel extends Model
     protected $deletedField  = 'deleted_at';
 
     // Validation
-
     protected $validationRules      = [];
     protected $validationMessages   = [];
     protected $skipValidation       = false;

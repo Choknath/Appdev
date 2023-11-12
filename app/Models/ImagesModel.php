@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class PostModel extends Model
+class ImagesModel extends Model
 {
-    protected $table            = 'posts';
-    protected $primaryKey       = 'id';
+    protected $table            = 'images';
+    protected $primaryKey       = 'ImageID';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['user_id','content','image_url'];
+    protected $allowedFields    = ['UserID','ImageURL'];
 
     // Dates
     protected $useTimestamps = false;
