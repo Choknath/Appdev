@@ -1,5 +1,5 @@
 <template>
-   <nav> <!--navbar-->
+    <nav> <!--navbar-->
       <div>
         <ul>
           <li>
@@ -38,8 +38,53 @@
       </div>
     </nav><!--end of navbar-->
 
+  <div>
+    <section class="market">
+      <h2>E-commerce Section</h2>
+      <div class="product-catalog">
+        <div class="product" v-for="(product, index) in products" :key="index">
+          <img :src="product.image" :alt="product.name" />
+          <h3>{{ product.name }}</h3>
+          <p>{{ product.description }}</p>
+          <span class="price">{{ `$${product.price.toFixed(2)}` }}</span>
+          <button @click="addToCart(product)">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      products: [
+        {
+          name: "Product 1",
+          description: "Description of Product 1",
+          price: 10.99,
+          image: "/product1.jpg", // Update the image path as per your file structure
+        },
+        {
+          name: "Product 2",
+          description: "Description of Product 2",
+          price: 19.99,
+          image: "/product2.jpg", // Update the image path as per your file structure
+        },
+        // Add more products here
+      ],
+    };
+  },
+  methods: {
+    addToCart(product) {
+      // Implement cart functionality here
+      console.log(`Added ${product.name} to the cart.`);
+    },
+  },
+};
+</script>
+
 <style>
 @import'../assets/asset/css/navbar.css';
-@import'../assets/asset/css/Profile.css';
+@import'../assets/asset/css/market.css';
 </style>
