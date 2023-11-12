@@ -39,3 +39,7 @@
     </nav><!--end of navbar-->
 
 </template>
+<style>
+@import'../assets/asset/css/navbar.css';
+@import'../assets/asset/css/Profile.css';
+</style>

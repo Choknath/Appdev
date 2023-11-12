@@ -37,7 +37,8 @@
         </ul>
       </div>
     </nav><!--end of navbar-->
-<section class="h-100 gradient-custom-2">
+
+
    <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col col-lg-9 col-xl-7">
@@ -111,7 +112,7 @@
       </div>
     </div>
   </div>
-</section>
+
 </template>
 <style>
 @import'../assets/asset/css/navbar.css';

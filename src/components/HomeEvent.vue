@@ -537,5 +537,5 @@ background: #333; padding-bottom: 90px;
   @import'../assets/asset/css/LineIcons.css';
   @import'../assets/asset/css/slick.css';
   @import'../assets/asset/css/style.css';
-  
+
   </style>

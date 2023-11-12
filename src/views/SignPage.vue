@@ -1,5 +1,6 @@
 <template>
     <signin />
+    <Registration />
   </template>
   
   <script>
