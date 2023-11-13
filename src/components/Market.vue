@@ -1,6 +1,8 @@
 <template>
-    <nav> <!--navbar-->
+<body>
+<nav> <!--navbar-->
       <div>
+ 
         <ul>
           <li>
             <a href="/Home">
@@ -37,49 +39,62 @@
         </ul>
       </div>
     </nav><!--end of navbar-->
+    
+    
+  </body>
+<br>
+<br>
+<br>
 
-  <div>
-    <section class="market">
-      <h2>E-commerce Section</h2>
-      <div class="product-catalog">
-        <div class="product" v-for="(product, index) in products" :key="index">
+  <div class="product-catalog">
+      <div class="product" v-for="(product, index) in products" :key="index">
           <img :src="product.image" :alt="product.name" />
           <h3>{{ product.name }}</h3>
           <p>{{ product.description }}</p>
           <span class="price">{{ `$${product.price.toFixed(2)}` }}</span>
           <button @click="addToCart(product)">Add to Cart</button>
-        </div>
       </div>
-    </section>
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {
-      products: [
-        {
-          name: "Product 1",
-          description: "Description of Product 1",
-          price: 10.99,
-          image: "/product1.jpg", // Update the image path as per your file structure
-        },
-        {
-          name: "Product 2",
-          description: "Description of Product 2",
-          price: 19.99,
-          image: "/product2.jpg", // Update the image path as per your file structure
-        },
-        // Add more products here
-      ],
-    };
+      return {
+          products: [
+              {
+                  name: "Product 1",
+                  description: "Description of Product 1",
+                  price: 10.99,
+                  image: "/product1.jpg",
+              },
+              {
+                  name: "Product 2",
+                  description: "Description of Product 2",
+                  price: 19.99,
+                  image: "/product2.jpg",
+              },
+              {
+                  name: "Product 3", // Add more products here
+                  description: "Description of Product 3",
+                  price: 29.99,
+                  image: "/product3.jpg",
+              },
+              {
+                  name: "Product 4", // Add more products here
+                  description: "Description of Product 4",
+                  price: 39.99,
+                  image: "/product4.jpg",
+              },
+              // Add as many products as you need
+          ],
+      };
   },
   methods: {
-    addToCart(product) {
-      // Implement cart functionality here
-      console.log(`Added ${product.name} to the cart.`);
-    },
+      addToCart(product) {
+          // Implement cart functionality here
+          console.log(`Added ${product.name} to the cart.`);
+      },
   },
 };
 </script>
