@@ -1,140 +1,63 @@
 <template>
-   <nav> <!--navbar-->
-      <div>
-        <ul>
-          <li>
-            <a href="/Home">
-              <div class="icon">
-                <i class="fa fa-users" aria-hidden="true"></i>
-              </div>
-              <div class="text" data-type="Community">Community</div>
-            </a>
-          </li>
-          <li>
-            <a href="/Event">
-              <div class="icon">
-                <i class="fa fa-calendar" aria-hidden="true"></i>
-              </div>
-              <div class="text" data-type="Event">Event</div>
-            </a>
-          </li>
-          <li>
-            <a href="/Market">
-              <div class="icon">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-              </div>
-              <div class="text" data-type="Market">Market</div>
-            </a>
-          </li>
-          <li>
-            <a href="/Profile">
-              <div class="icon">
-                <i class="fa fa-user"></i>
-              </div>
-              <div class="text" data-type="Profile">Profile</div>
-            </a>
-          </li>
-        </ul>
+<v-layout class="overflow-visible" style="height: 56px;">
+  <v-bottom-navigation v-model="value" color="teal" grow>
+<v-btn>
+  <v-icon>
+    <a href="/Home">
+      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
+        <i class="fa fa-users" aria-hidden="true"></i>
       </div>
-    </nav><!--end of navbar-->
-
-
-   <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col col-lg-9 col-xl-7">
-        <div class="card">
-          <div class="rounded-top text-white d-flex flex-row" style="background-color: #000; height:200px;">
-            <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-profiles/avatar-1.webp"
-                alt="Generic placeholder image" class="img-fluid img-thumbnail mt-4 mb-2"
-                style="width: 150px; z-index: 1">
-              <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark"
-                style="z-index: 1;">
-                Edit profile
-              </button>
-            </div>
-            <div class="ms-3" style="margin-top: 130px;">
-              <h5>Andy Horwitz</h5>
-              <p>New York</p>
-            </div>
-          </div>
-          <div class="p-4 text-black" style="background-color: #f8f9fa;">
-            <div class="d-flex justify-content-end text-center py-1">
-              <div>
-                <p class="mb-1 h5">253</p>
-                <p class="small text-muted mb-0">Photos</p>
-              </div>
-              <div class="px-3">
-                <p class="mb-1 h5">1026</p>
-                <p class="small text-muted mb-0">Followers</p>
-              </div>
-              <div>
-                <p class="mb-1 h5">478</p>
-                <p class="small text-muted mb-0">Following</p>
-              </div>
-            </div>
-          </div>
-          <div class="card-body p-4 text-black">
-            <div class="mb-5">
-              <p class="lead fw-normal mb-1">About</p>
-              <div class="p-4" style="background-color: #f8f9fa;">
-                <p class="font-italic mb-1">Web Developer</p>
-                <p class="font-italic mb-1">Lives in New York</p>
-                <p class="font-italic mb-0">Photographer</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-between align-items-center mb-4">
-              <p class="lead fw-normal mb-0">Recent photos</p>
-              <p class="mb-0"><a href="#!" class="text-muted">Show all</a></p>
-            </div>
-            <div class="row g-2">
-              <div class="col mb-2">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/Lightbox/Original/img%20(112).webp"
-                  alt="image 1" class="w-100 rounded-3">
-              </div>
-              <div class="col mb-2">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/Lightbox/Original/img%20(107).webp"
-                  alt="image 1" class="w-100 rounded-3">
-              </div>
-            </div>
-            <div class="row g-2">
-              <div class="col">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/Lightbox/Original/img%20(108).webp"
-                  alt="image 1" class="w-100 rounded-3">
-              </div>
-              <div class="col">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/Lightbox/Original/img%20(114).webp"
-                  alt="image 1" class="w-100 rounded-3">
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="text" data-type="Community" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
+        Community
       </div>
-    </div>
-  </div>
+    </a>
+  </v-icon>
+</v-btn>
 
+<v-btn>
+  <v-icon>
+    <a href="/Event">
+      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+      </div>
+      <div class="text" data-type="Event" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
+        Event
+      </div>
+    </a>
+  </v-icon>
+</v-btn>
+
+<v-btn>
+  <v-icon>
+    <a href="/Market">
+      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      </div>
+      <div class="text" data-type="Market" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
+        Market
+      </div>
+    </a>
+  </v-icon>
+</v-btn>
+
+<v-btn>
+  <v-icon>
+    <a href="Profile">
+      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
+        <i class="fa fa-user"></i>
+      </div>
+      <div class="text" data-type="Profile" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
+        Profile
+      </div>
+    </a>
+  </v-icon>
+</v-btn>
+</v-bottom-navigation>
+</v-layout>
 </template>
-<style>
-@import'../assets/asset/css/navbar.css';
-@import'../assets/asset/css/Profile.css';
-</style>
 
 <script>
-import axios from 'axios';
-export default{
-  data(){
-    return{
-      info:[],
-    }
-  },
-  methods:{
-    async getInfo(){
-      try {
-        const inf = await axios.get('getData')
-      } catch (error) {
-        
-      }
-    }
+  export default {
+    data: () => ({ value: 0 }),
   }
-}
 </script>

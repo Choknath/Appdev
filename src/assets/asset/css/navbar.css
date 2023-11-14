@@ -1,7 +1,5 @@
+/* Navigation Bar CSS */
 body {
-    margin: 0;
-    padding: 0;
-    background: #e91e63;
     font-family: sans-serif;
 }
 
@@ -16,44 +14,28 @@ ul {
     z-index: 100;
     transition: height 0.3s;
 }
+
 .logo-item {
-    margin-right: 10%; /* Adjust the margin to push the image slightly to the left */
+    margin-right: 20px; /* Adjust margin to a fixed value */
 }
 
 @media (max-width: 768px) {
-    ul {
-        flex-direction: row; /* Switch back to horizontal layout */
-        justify-content: space-around; /* Space items evenly */
-        align-items: center;
-        height: auto; /* Restore the default height */
-    }
-
-    ul li {
-        margin: 0 10px; /* Add spacing between items */
-    }
-
-    ul li a {
-        padding: 10px 15px; /* Adjust padding for better spacing */
-    }
-    
-    /* Additional styles specific to tablet view can be added here */
+    /* ... Your existing media query styles ... */
 }
-
 
 ul li {
     list-style: none;
     text-align: center;
 }
+
 ul li a {
     text-decoration: none;
     display: flex;
-    flex-direction: column; 
-    padding: 5px 10px;
+    flex-direction: column;
+    padding: 10px 15px; /* Adjust padding for better spacing */
     width: 100%;
     text-align: center;
 }
-
-
 
 ul li a .icon .fa {
     font-size: 15px;
@@ -62,13 +44,40 @@ ul li a .icon .fa {
 }
 
 ul li a:hover .icon .fa {
-    transform: translateY(-5px); /* Move the icon 5px up on hover */
+    transform: translateY(-5px);
     color: #e91e63;
 }
 
-/* Style for the text under the icons */
 ul li a .text {
     margin-top: 5px;
     font-weight: bold;
     color: #000;
+}
+
+/* Header and Main Section CSS */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.user-interface {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.interface-element {
+    border: 1px solid #ddd; /* Adjust border color */
+    padding: 20px;
+    text-align: center;
 }

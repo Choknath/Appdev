@@ -22,8 +22,8 @@
         <input type="button" class="button" value="Login">
       </form>
       <div class="signup">
-        <span class="signup">Don't have an account?
-         <label for="check">Signup</label>
+        <span class="signup">Don't have an account? 
+         <label for="check"><a href="/Registration">Signup</a></label>
         </span>
       </div>
     </div>

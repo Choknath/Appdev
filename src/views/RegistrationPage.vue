@@ -1,18 +1,18 @@
 <template>
-    <signin />
+    <Registration />
   </template>
   
   <script>
   import { defineComponent } from 'vue';
   
   // Components
-  import signin from '../components/signin.vue';
+  import Registration from '../components/Registration.vue';
   
   export default defineComponent({
-    name: 'SignPage',
+    name: 'RegistrationPage',
   
     components: {
-      signin
+      Registration
     }
   });
   </script>
