@@ -12,15 +12,14 @@ class AuthController extends ResourceController
 {
     public function getData()
     {
-        // Retrieve data in the databse
+
         $user = new UserModel();
         $user = $user->findAll();
 
-        // Return the user data in the database as JSON
+
         return $this->respond($user, 200);
         
-        // this will check if the database ay may laman
-        // var_dump($user);
+        
     }
 }
 
