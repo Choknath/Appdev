@@ -60,12 +60,13 @@
       <h2>E-commerce Section</h2>
       <div class="product-catalog">
         <div class="product" v-for="(product, index) in products" :key="index">
+
           <img :src="product.image" :alt="product.name" />
           <h3>{{ product.name }}</h3>
           <p>{{ product.description }}</p>
           <span class="price">{{ `$${product.price.toFixed(2)}` }}</span>
           <button @click="addToCart(product)">Add to Cart</button>
-        </div>
+      </div>
       </div>
     </section>
   </div>
@@ -74,6 +75,7 @@
 <script>
 export default {
   data() {
+ HEAD
     return {
       value: 1,
       products: [
@@ -94,10 +96,10 @@ export default {
     };
   },
   methods: {
-    addToCart(product) {
-      // Implement cart functionality here
-      console.log(`Added ${product.name} to the cart.`);
-    },
+      addToCart(product) {
+          // Implement cart functionality here
+          console.log(`Added ${product.name} to the cart.`);
+      },
   },
 };
 </script>

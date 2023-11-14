@@ -1,9 +1,17 @@
-/* Add your specific styling for the product catalog here */
-.product {
-    border: 1px solid #ddd;
-    padding: 20px;
+/* Additional styling for the product catalog */
+.product-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2; /* Background color */
+  }
+  
+  .product {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
     text-align: center;
-    margin: 10px;
+    background-color: #fff; /* Background color for individual products */
   }
   
   .product img {
@@ -11,7 +19,33 @@
     height: auto;
   }
   
-  .price {
-    color: #ff5722;
-    font-weight: bold;
+  .product h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #3498db; /* Sky blue color for h3 text */
   }
+  
+  .product p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .product .price {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .product button {
+    background-color: #3498db; /* Sky blue background color for buttons */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #2980b9; /* Darker sky blue for button hover effect */
+  }
+  
