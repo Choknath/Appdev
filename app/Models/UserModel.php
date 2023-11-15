@@ -13,6 +13,7 @@ class UserModel extends Model
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = ['username', 'email', 'password_hash', 'full_name', 'bio', 'profile_picture_url', 'registration_date'];
+
     // Dates
     protected $useTimestamps = false;
     protected $dateFormat    = 'datetime';
