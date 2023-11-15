@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ImagesModel extends Model
+class ProductModel extends Model
 {
-    protected $table            = 'images';
-    protected $primaryKey       = 'ImageID';
+    protected $table            = 'products';
+    protected $primaryKey       = 'product_id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['UserID','ImageURL'];
+    protected $allowedFields    = ['store_id', 'product_name', 'description', 'price', 'media_url', 'created_at'];
 
     // Dates
     protected $useTimestamps = false;

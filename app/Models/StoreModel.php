@@ -4,15 +4,16 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UserModel extends Model
+class StoreModel extends Model
 {
-    protected $table            = 'users';
-    protected $primaryKey       = 'user_id';
+    protected $table            = 'stores';
+    protected $primaryKey       = 'store_id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['username', 'email', 'password_hash', 'full_name', 'bio', 'profile_picture_url', 'registration_date'];
+    protected $allowedFields    = ['user_id', 'store_name', 'location', 'created_at'];
+
     // Dates
     protected $useTimestamps = false;
     protected $dateFormat    = 'datetime';
@@ -21,7 +22,6 @@ class UserModel extends Model
     protected $deletedField  = 'deleted_at';
 
     // Validation
-
     protected $validationRules      = [];
     protected $validationMessages   = [];
     protected $skipValidation       = false;

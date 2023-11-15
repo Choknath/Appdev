@@ -4,22 +4,24 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class NewsfeedsModel extends Model
+class PostModel extends Model
 {
-    protected $table            = 'newsfeeds';
-    protected $primaryKey       = 'NewsfeedID';
-    protected $useAutoIncrement = true;
-    protected $returnType       = 'array';
-    protected $useSoftDeletes   = false;
-    protected $protectFields    = true;
-    protected $allowedFields    = ['UserID','Content','PostDate'];
-
+ 
+        protected $table            = 'post';
+        protected $primaryKey       = 'post_id';
+        protected $useAutoIncrement = true;
+        protected $returnType       = 'array';
+        protected $useSoftDeletes   = false;
+        protected $protectFields    = true;
+        protected $allowedFields    = ['user_id', 'content', 'media_url', 'created_at'];
+        
     // Dates
     protected $useTimestamps = false;
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
     protected $deletedField  = 'deleted_at';
+
 
     // Validation
     protected $validationRules      = [];

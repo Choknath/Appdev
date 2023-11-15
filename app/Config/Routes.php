@@ -6,4 +6,5 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
-$routes->get('/getData', 'AuthController::getData');
+$routes->get('/market/getData', 'MarketController::getData');
+$routes->get('/Profile', 'ProfileController::profData');
