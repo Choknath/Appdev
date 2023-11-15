@@ -28,6 +28,6 @@ class MarketController extends ResourceController
         // Respond with the combined data
         return $this->respond($combinedData, 200);
         //check if there is a data in the data bse
-        var_dump($combinedData);
+        // var_dump($combinedData);
     }
 }

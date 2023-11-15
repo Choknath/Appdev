@@ -8,32 +8,23 @@ use App\Models\UserModel;
 
 class ProfileController extends ResourceController
 {
-    public function profData()
+    public function showUser()
     {
-        // Assuming you have a UserModel to interact with the 'users' table
+        // $userModel = new UserModel();
+    
+        // $userData = $userModel->where('username','email','bio') ->Find();  
+    
+        // return $this->respond($userData, 200);
+        // // var_dump($userData);
+
+
         $userModel = new UserModel();
+    
+        $userdata = $userModel->select('username, email, bio')->findAll();    
 
-        // Find the user by user_id
-        $user = $userModel->find($userId);
-
-        if ($user) {
-            // Extract the desired data (username, email, bio)
-            $userData = [
-                'username' => $user['username'],
-                'email' => $user['email'],
-                'bio' => $user['bio'],
-            ];
-
-            // Respond with the user data
-            return $this->respond($userData, 200);
-        } else {
-            // If user is not found, respond with an error
-            return $this->respond(['message' => 'User not found'], 404);
-        }
+        return $this->respond($userdata, 200);
+        // var_dump($userData);
     }
 }
-
-
-
-
+    
 

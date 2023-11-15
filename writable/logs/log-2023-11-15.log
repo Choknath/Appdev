@@ -368,3 +368,488 @@ in APPPATH\Controllers\ProfileController.php on line 17.
  3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
  4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:28:52 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:31:49 --> Too few arguments to function App\Controllers\ProfileController::profData(), 0 passed in C:\laragon\www\Appdev\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\ProfileController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:33:05 --> Too few arguments to function App\Controllers\ProfileController::profData(), 0 passed in C:\laragon\www\Appdev\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\ProfileController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:33:33 --> Too few arguments to function App\Controllers\ProfileController::profData(), 0 passed in C:\laragon\www\Appdev\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\ProfileController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:33:48 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:34:38 --> Undefined variable $user
+in APPPATH\Controllers\ProfileController.php on line 18.
+ 1 APPPATH\Controllers\ProfileController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:34:44 --> Undefined variable $user
+in APPPATH\Controllers\ProfileController.php on line 18.
+ 1 APPPATH\Controllers\ProfileController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:34:45 --> Undefined variable $user
+in APPPATH\Controllers\ProfileController.php on line 18.
+ 1 APPPATH\Controllers\ProfileController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:36:44 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\ProfileController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-15 08:41:35 --> Too few arguments to function App\Controllers\ProfileController::profData(), 0 passed in C:\laragon\www\Appdev\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\ProfileController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:44:37 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:45:12 --> Too few arguments to function App\Controllers\ProfileController::profData(), 0 passed in C:\laragon\www\Appdev\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\ProfileController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:45:13 --> Too few arguments to function App\Controllers\ProfileController::profData(), 0 passed in C:\laragon\www\Appdev\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\ProfileController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:45:26 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:46:30 --> Undefined variable $user_id
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:46:31 --> Undefined variable $user_id
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:46:31 --> Undefined variable $user_id
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:50:03 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:57:30 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\Appdev\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `users`
+WHERE `users`.`user_id` IN :users.user_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `users`.`user_id` IN :users.user_id:', [...], false)
+ 7 SYSTEMPATH\Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(false, [...])
+ 9 APPPATH\Controllers\ProfileController.php(21): CodeIgniter\BaseModel->find([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:58:44 --> Call to undefined method App\Controllers\ProfileController::respond()
+in APPPATH\Controllers\ProfileController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 08:59:22 --> Call to undefined method App\Controllers\ProfileController::initController
+in SYSTEMPATH\Model.php on line 873.
+ 1 SYSTEMPATH\CodeIgniter.php(915): CodeIgniter\Model->__call('initController', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 09:00:32 --> Undefined variable $user_id
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 09:02:00 --> Undefined array key "username"
+in APPPATH\Controllers\ProfileController.php on line 21.
+ 1 APPPATH\Controllers\ProfileController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 09:02:17 --> Undefined variable $user
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 09:02:29 --> Undefined variable $userData
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 09:03:15 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\ProfileController.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProfileController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProfileController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\ProfileController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 09:04:55 --> Undefined array key "username"
+in APPPATH\Controllers\ProfileController.php on line 19.
+ 1 APPPATH\Controllers\ProfileController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 09:06:24 --> Undefined array key "username"
+in APPPATH\Controllers\ProfileController.php on line 23.
+ 1 APPPATH\Controllers\ProfileController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 09:07:07 --> Undefined variable $user_id
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 09:08:43 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 38.
+ 1 APPPATH\Controllers\ProfileController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 14:44:53 --> Undefined variable $username
+in APPPATH\Controllers\ProfileController.php on line 20.
+ 1 APPPATH\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 14:45:24 --> Undefined variable $username
+in APPPATH\Controllers\ProfileController.php on line 20.
+ 1 APPPATH\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 14:45:25 --> Undefined variable $username
+in APPPATH\Controllers\ProfileController.php on line 20.
+ 1 APPPATH\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 14:45:25 --> Undefined variable $username
+in APPPATH\Controllers\ProfileController.php on line 20.
+ 1 APPPATH\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 14:45:49 --> Undefined variable $username
+in APPPATH\Controllers\ProfileController.php on line 20.
+ 1 APPPATH\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 14:45:50 --> Undefined variable $username
+in APPPATH\Controllers\ProfileController.php on line 20.
+ 1 APPPATH\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 14:45:50 --> Undefined variable $username
+in APPPATH\Controllers\ProfileController.php on line 20.
+ 1 APPPATH\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 14:47:13 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 20.
+ 1 APPPATH\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 14:47:26 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 14:59:53 --> Undefined variable $user
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:00:05 --> Undefined variable $user
+in APPPATH\Controllers\ProfileController.php on line 19.
+ 1 APPPATH\Controllers\ProfileController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:03:16 --> Undefined variable $user
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:21:19 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 14.
+ 1 APPPATH\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->profData()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:22:30 --> Too few arguments to function App\Controllers\ProfileController::showUser(), 0 passed in C:\laragon\www\Appdev\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\ProfileController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:23:05 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 14.
+ 1 APPPATH\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:23:34 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 14.
+ 1 APPPATH\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:24:06 --> Undefined variable $filteredData
+in APPPATH\Controllers\ProfileController.php on line 14.
+ 1 APPPATH\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:24:07 --> Undefined variable $filteredData
+in APPPATH\Controllers\ProfileController.php on line 14.
+ 1 APPPATH\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:24:07 --> Undefined variable $filteredData
+in APPPATH\Controllers\ProfileController.php on line 14.
+ 1 APPPATH\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:24:07 --> Undefined variable $filteredData
+in APPPATH\Controllers\ProfileController.php on line 14.
+ 1 APPPATH\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $filteredData', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:24:19 --> Undefined array key "username"
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:26:33 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProfileController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProfileController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\ProfileController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:28:12 --> Call to a member function where() on array
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:28:28 --> Call to a member function where() on array
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:28:50 --> Too few arguments to function App\Controllers\ProfileController::showUser(), 0 passed in C:\laragon\www\Appdev\system\CodeIgniter.php on line 942 and exactly 3 expected
+in APPPATH\Controllers\ProfileController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:29:06 --> Undefined variable $username
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:39:23 --> Call to undefined method App\Models\UserModel::FindAdd
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Model->__call('FindAdd', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:41:18 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\laragon\www\Appdev\app\Controllers\ProfileController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 607.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\BaseModel->findAll('username', 'email', 'bio')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:42:39 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\ProfileController.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProfileController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProfileController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\ProfileController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:44:08 --> Call to undefined method App\Controllers\ProfileController::response()
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:44:33 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\laragon\www\Appdev\system\Model.php on line 871 and at least 1 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 696.
+ 1 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->where()
+ 2 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Model->__call('where', [])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:45:53 --> Call to a member function where() on array
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:51:24 --> Undefined variable $username
+in APPPATH\Controllers\ProfileController.php on line 21.
+ 1 APPPATH\Controllers\ProfileController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:52:03 --> CodeIgniter\Database\BaseBuilder::getWhere(): Argument #2 ($limit) must be of type ?int, string given, called in C:\laragon\www\Appdev\system\Model.php on line 871
+in SYSTEMPATH\Database\BaseBuilder.php on line 1736.
+ 1 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->getWhere('username', 'email', 'bio')
+ 2 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Model->__call('getWhere', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:52:21 --> Call to undefined method App\Models\UserModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:52:22 --> Call to undefined method App\Models\UserModel::getResult
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 15:58:59 --> Undefined variable $username
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 16:00:20 --> Call to undefined method App\Models\UserModel::slect
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ProfileController.php(23): CodeIgniter\Model->__call('slect', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-15 16:04:34 --> Undefined variable $session
+in APPPATH\Controllers\ProfileController.php on line 20.
+ 1 APPPATH\Controllers\ProfileController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->showUser()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
