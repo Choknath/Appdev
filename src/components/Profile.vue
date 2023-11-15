@@ -103,12 +103,31 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({ value: 0,
-      user: {
-        initials: 'Paul',
-        fullName: 'Cris Paul Mavida',
-        email: 'chocknath@gmail.com',
-      }, }),
-  }
+import axios from 'axios';
+
+export default {
+  data: () => ({
+    value: 0,
+    user: {
+      initials: '',
+      fullName: 'Cris Paul Mavida',
+      email: 'chocknath@gmail.com',
+    },
+    info: [], // Fix: Removed the extra characters here
+  }),
+  created() {
+    this.getInfo(); // Fix: Corrected the method name
+  },
+  methods: {
+    async getInfo() {
+      try {
+        const inf = await axios.get('getData');
+        this.info = inf.data;
+      } catch (error) {
+        console.log(error);
+      }
+    },
+  },
+};
+
 </script>
