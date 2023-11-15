@@ -1,51 +1,77 @@
-/* Additional styling for the product catalog */
+Additional styling for the product catalog
 .product-catalog {
-    display: flex;
-    flex-wrap: wrap;
-    background: linear-gradient(to bottom, #c8e6c9, #a5d6a7); /* Gradient light green background */
-  }
-  
-  .product {
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    width: 200px;
-    text-align: center;
-    background-color: #fff; /* Background color for individual products */
-  }
-  
-  .product img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .product h3 {
-    font-size: 1.2rem;
-    margin: 10px 0;
-    color: #3498db; /* Sky blue color for h3 text */
-  }
-  
-  .product p {
-    font-size: 1rem;
-    margin: 5px 0;
-  }
-  
-  .product .price {
-    font-size: 1.2rem;
-    color: #e74c3c;
-    font-weight: bold;
-    margin: 5px 0;
-  }
-  
-  .product button {
-    background-color: #3498db; /* Sky blue background color for buttons */
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  .product button:hover {
-    background-color: #2980b9; /* Darker sky blue for button hover effect */
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(to bottom, #c8e6c9, #a5d6a7); /* Gradient light green background */
+  padding: 20px; /* Adding padding for better spacing */
+  background-color: #f5f5f5; /* Background color for the entire product catalog */
+}
+
+.product {
+  margin: 15px; /* Reduced margin for better spacing */
+  padding: 15px; /* Adjusted padding for product items */
+  border: 2px solid #ddd; /* Slightly thicker border */
+  width: 220px; /* Increased width for product items */
+  text-align: center;
+  background-color: #fff; /* Background color for individual products */
+  transition: transform 0.3s ease-in-out; /* Added a smooth transition effect */
+}
+
+.product:hover {
+  transform: scale(1.05); /* Scale up on hover for a subtle zoom effect */
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd; /* Added a border to product images */
+}
+
+.product h3 {
+  font-size: 1.3rem; /* Slightly increased font size for h3 text */
+  margin: 12px 0; /* Adjusted margin for h3 text */
+  color: #3366cc; /* Changed sky blue color for h3 text */
+}
+
+.product p {
+  font-size: 1rem;
+  margin: 8px 0; /* Adjusted margin for paragraph text */
+}
+
+.product .price {
+  font-size: 1.2rem;
+  color: #e74c3c;
+  font-weight: bold;
+  margin: 8px 0; /* Adjusted margin for price text */
+}
+
+.product button {
+  background-color: #ff6600; /* Changed button color to orange */
+  color: #fff;
+  border: none;
+  padding: 8px 12px; /* Adjusted padding for buttons */
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #e65100; /* Darker orange for button hover effect */
+}
+
+/* Additional styling for the bottom navbar */
+.bottom-navbar {
+  position: fixed; /* Changed to fixed position for a sticky navbar */
+  bottom: 0;
+  width: 100%;
+  background-color: #333; /* Darkened background color for the navbar */
+  color: #fff; /* Changed text color to white */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Added a more noticeable shadow */
+}
+
+.bottom-navbar a {
+  text-decoration: none; /* Removed underlines from navbar links */
+  color: #fff; /* Set text color for navbar links to white */
+}
+
+.bottom-navbar a:hover {
+  text-decoration: underline; /* Underline on hover for navbar links */
+}

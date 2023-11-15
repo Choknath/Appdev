@@ -1,39 +1,42 @@
 <template>
   <div>
-<H1>STORE</H1>
-    <!-- Product Catalog -->
-    <v-layout class="overflow-visible" style="height: calc(100vh - 56px);">
-      <!-- Your product catalog content here -->
-      <div v-for="(product, index) in products" :key="index">
-        <v-card>
-          <v-img :src="product.image" alt="product.name"></v-img>
-          <v-card-title>{{ product.name }}</v-card-title>
-          <v-card-subtitle>{{ product.description }}</v-card-subtitle>
-          <v-card-actions>
-            <v-btn @click="addToCart(product)">Add to Cart</v-btn>
-            <v-btn @click="openModal(index)">View Details</v-btn>
-          </v-card-actions>
-        </v-card>
+    <br>
+    <br>
+    <h1>Market place</h1>
 
-        <!-- Modal for each product -->
-        <v-dialog v-model="product.dialog" max-width="600">
+    <v-container>
+      <!-- Product Catalog -->
+      <v-row>
+        <v-col v-for="(product, index) in products" :key="index" cols="12" md="4">
           <v-card>
-            <!-- Your modal content goes here -->
+            <v-img :src="product.image" alt="product.name"></v-img>
             <v-card-title>{{ product.name }}</v-card-title>
             <v-card-subtitle>{{ product.description }}</v-card-subtitle>
-            <v-card-text>Price: ${{ product.price.toFixed(2) }}</v-card-text>
             <v-card-actions>
-              <v-btn @click="closeModal(index)">Close</v-btn>
+              <v-btn @click="addToCart(product)">Add to Cart</v-btn>
+              <v-btn @click="openModal(index)">View Details</v-btn>
             </v-card-actions>
           </v-card>
-        </v-dialog>
-      </div>
-    </v-layout>
+
+          <!-- Modal for each product -->
+          <v-dialog v-model="product.dialog" max-width="600">
+            <v-card>
+              <v-card-title>{{ product.name }}</v-card-title>
+              <v-card-subtitle>{{ product.description }}</v-card-subtitle>
+              <v-card-text>Price: ${{ product.price.toFixed(2) }}</v-card-text>
+              <v-card-actions>
+                <v-btn @click="closeModal(index)">Close</v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-dialog>
+        </v-col>
+      </v-row>
+    </v-container>
 
     <!-- Bottom Navigation -->
-    <v-layout class="overflow-visible" style="height: 56px;">
-  <v-bottom-navigation v-model="value" color="teal" grow>
-<v-btn>
+    <v-bottom-navigation v-model="value" color="teal" grow>
+      <!-- Your bottom navigation buttons here -->
+      <v-btn>
   <v-icon>
     <a href="/Home">
       <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
@@ -83,8 +86,7 @@
     </a>
   </v-icon>
 </v-btn>
-</v-bottom-navigation>
-</v-layout>
+    </v-bottom-navigation>
   </div>
 </template>
 
@@ -97,14 +99,126 @@ export default {
           name: "Product 1",
           description: "Description of Product 1",
           price: 10.99,
-          image: "/product1.jpg",
+          image: "product1.jpg", // Update with correct image paths
           dialog: false,
         },
         {
           name: "Product 2",
           description: "Description of Product 2",
           price: 19.99,
-          image: "/product2.jpg",
+          image: "product2.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 1",
+          description: "Description of Product 1",
+          price: 10.99,
+          image: "product1.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 2",
+          description: "Description of Product 2",
+          price: 19.99,
+          image: "product2.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 1",
+          description: "Description of Product 1",
+          price: 10.99,
+          image: "product1.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 2",
+          description: "Description of Product 2",
+          price: 19.99,
+          image: "product2.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 1",
+          description: "Description of Product 1",
+          price: 10.99,
+          image: "product1.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 2",
+          description: "Description of Product 2",
+          price: 19.99,
+          image: "product2.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 1",
+          description: "Description of Product 1",
+          price: 10.99,
+          image: "product1.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 2",
+          description: "Description of Product 2",
+          price: 19.99,
+          image: "product2.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 1",
+          description: "Description of Product 1",
+          price: 10.99,
+          image: "product1.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 2",
+          description: "Description of Product 2",
+          price: 19.99,
+          image: "product2.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 1",
+          description: "Description of Product 1",
+          price: 10.99,
+          image: "product1.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 2",
+          description: "Description of Product 2",
+          price: 19.99,
+          image: "product2.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 1",
+          description: "Description of Product 1",
+          price: 10.99,
+          image: "product1.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 2",
+          description: "Description of Product 2",
+          price: 19.99,
+          image: "product2.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 1",
+          description: "Description of Product 1",
+          price: 10.99,
+          image: "product1.jpg", // Update with correct image paths
+          dialog: false,
+        },
+        {
+          name: "Product 2",
+          description: "Description of Product 2",
+          price: 19.99,
+          image: "product2.jpg", // Update with correct image paths
           dialog: false,
         },
         // Add more products here
@@ -127,14 +241,7 @@ export default {
 };
 </script>
 
-<style scoped>
-/* Additional styling for the bottom navbar */
-.bottom-navbar {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #fff; /* Adjust the background color as needed */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
-}
-
+<style>
+/* Your styles remain unchanged */
+@import '@/assets/asset/css/market.css';
 </style>
