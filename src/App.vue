@@ -15,16 +15,6 @@ class="text-left"
 
 >
 
-Install our Apps
-
-<template v-slot:actions>
-
-<v-btn text @click="dismiss">Dismiss</v-btn>
-
-<v-btn text @click="install">Install</v-btn>
-
-</template>
-
 </v-banner>
 
 <router-view>

@@ -1,32 +1,104 @@
-<template>
-<!DOCTYPE html>
-<!-- Coding By CodingNepal - codingnepalweb.com -->
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login & Registration Form</title>
-</head>
-<body>
-  <div class="container">
-    <input type="checkbox" id="check">
-   
-    <div class="registration form">
-      <header>Signup</header>
-      <form action="#">
-        <input type="text" placeholder="Enter your email">
-        <input type="password" placeholder="Create a password">
-        <input type="password" placeholder="Confirm your password">
-        <input type="button" class="button" value="Signup">
-      </form>
-      <div class="signup">
-        <span class="signup">Already have an account? <a href="/signin"></a>
-         <label for="check">Login</label>
-        </span>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
-</template>
+<template> 
+
+  <v-sheet width="300" class="mx-auto"> 
+
+  <v-form fast-fail @submit.prevent="register"> 
+
+      <div v-if="message === 'error'">Invalid response</div> 
+
+      
+
+      <v-text-field v-model="username" label="Username"></v-text-field> 
+
+      <v-text-field v-model="password" label="Password" type="password"></v-text-field> 
+
+      <v-text-field v-model="passwordConfirm" label="Password Confirm" type="password"></v-text-field> 
+
+
+
+      <div v-if="message === 'passwordMismatch'">Passwords do not match</div> 
+
+  
+
+      <v-btn type="submit" block class="mt-2">Submit</v-btn> 
+
+      <router-link to="/login">Login</router-link> 
+
+  </v-form> 
+
+  </v-sheet> 
+
+</template> 
+
+
+
+<script> 
+
+import router from '@/router'; 
+import axios from 'axios';
+
+
+
+
+
+export default { 
+
+  data() { 
+
+  return { 
+
+      username: '', 
+
+      password: '', 
+
+      passwordConfirm: '', 
+
+      message: [], 
+
+  }; 
+
+  }, 
+
+  methods: { 
+
+  async register() { 
+
+      if (this.password === this.passwordConfirm) { 
+
+      const data = await axios.post("api/register", { 
+
+          username: this.username, 
+
+          password: this.password 
+
+      }); 
+
+
+
+      this.message = data.data.msg; 
+
+      
+
+      if (data.data.msg === 'okay') { 
+
+          // sessionStorage.setItem("jwt", data.data.token) 
+
+          alert("Registered successfully"); 
+
+          router.push('/login'); 
+
+      } 
+
+      } else { 
+
+      this.message = "passwordMismatch"; 
+
+      } 
+
+  } 
+
+  } 
+
+}; 
+
+</script>
