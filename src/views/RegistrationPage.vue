@@ -28,8 +28,8 @@
         email: '',
         fullname: '',
         password: '',
-        passwordConfirm: '',
-        message: [],
+        passwordConfirm: ''
+      
       };
     },
     methods: {

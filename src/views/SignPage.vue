@@ -40,7 +40,7 @@ export default {
 
         if (data.msg === 'okay') {
           sessionStorage.setItem('jwt', data.token);
-          router.push('/Nhome');
+          router.push('/home');
         }
       } catch (error) {
         console.error('An error occurred during login:', error);
