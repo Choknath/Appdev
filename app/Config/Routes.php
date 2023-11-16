@@ -7,4 +7,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/market/getData', 'MarketController::getData');
-$routes->get('/Profile', 'ProfileController::showUser');
+$routes->get('/Profile', 'ProfileController::status');
+$routes->get('/Users', 'UserController::showuser');

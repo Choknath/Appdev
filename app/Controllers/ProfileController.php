@@ -8,7 +8,7 @@ use App\Models\UserModel;
 
 class ProfileController extends ResourceController
 {
-    public function showUser()
+    public function Status()
     {
         // $userModel = new UserModel();
     
