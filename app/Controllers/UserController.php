@@ -20,7 +20,7 @@ class UserController extends ResourceController
             'username' => $json->username,
             'email' => $json->email, 
             'full_name' => $json->full_name,
-            'password_hash' => $json->password_hash,
+            'password' => $json->password,
         ]; 
         $Users = new UserModel(); 
         $r = $Users->save($data);
