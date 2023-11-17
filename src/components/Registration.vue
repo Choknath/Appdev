@@ -20,7 +20,7 @@
     </div>
   </div>
   </template>
-  
+    
   <script>
   import axios from 'axios';
   
@@ -39,14 +39,14 @@
     methods: {
       async register() {
         try {
-  const response = await axios.post('register', {
+  const ins = await axios.post('register', {
     username: this.username,
     email: this.email,
     fullname: this.fullname,
     password: this.password,
   });
-  // Assuming your backend sends a JSON response with a 'success' property
-  if (response.data.success) {
+  // Assuming your backend sends a JSON ins with a 'success' property
+  if (ins.data.success) {
     // Registration successful
     console.log('Registration successful');
     // You can redirect or show a success message here
