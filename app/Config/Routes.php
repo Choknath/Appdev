@@ -10,3 +10,5 @@ $routes->get('/market/getData', 'MarketController::getData');
 $routes->get('/Profile', 'ProfileController::status');
 $routes->get('/Users', 'UserController::showuser');
 $routes->post('/register', 'USerController::register');
+$routes->match(['post','get'],'/login', 'UserController::login');
+
