@@ -11,16 +11,17 @@ class UserController extends ResourceController
     public function login()
     {
         
+        
     }
 
     public function register()
     {
-        $json = $this->request->getJSON();
+        // $json = $this->request->getJSON();
         $data = [
-            'username' => $json->username,
-            'email' => $json->email, 
-            'full_name' => $json->full_name,
-            'password' => $json->password,
+            'username' => $this->request->getVar('username'),
+            'email' => $this->request->getVar('email'),
+            'full_name' => $this->request->getVar('full_name'),
+            'password' => password_hash($this->request->getVar('password'),PASSWORD_DEFAULT),   
         ]; 
         $Users = new UserModel(); 
         $r = $Users->save($data);
@@ -35,6 +36,6 @@ class UserController extends ResourceController
         $data = $Users->findAll();
         return $this ->respond($data ,200);
         // var_dump($data);
-    }
+    } 
     
 }

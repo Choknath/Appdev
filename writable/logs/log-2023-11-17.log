@@ -4,3 +4,51 @@ in APPPATH\Config\Routes.php on line 13.
  2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
  3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 03:49:53 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 03:53:14 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 03:57:30 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 03:58:53 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 04:17:19 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 APPPATH\Controllers\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\UserController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 04:51:50 --> password_hash() expects at least 2 arguments, 1 given
+in APPPATH\Controllers\UserController.php on line 23.
+ 1 APPPATH\Controllers\UserController.php(23): password_hash('12345')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-17 04:52:30 --> Call to undefined function App\Controllers\passwordhash()
+in APPPATH\Controllers\UserController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()

@@ -13,11 +13,11 @@ class MarketController extends ResourceController
     {
         // Retrieve and display a list of stores
         $storeModel = new StoreModel();
-        $stores = $storeModel->findAll();
+        $stores = $storeModel->find(1);
 
         // Retrieve and display a list of products
         $productModel = new ProductModel();
-        $products = $productModel->findAll();
+        $products = $productModel->find(1);
 
         // You might want to combine the data before responding
         $combinedData = [
