@@ -48,7 +48,6 @@ export default {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('/path/to/your/background-image.jpg');
   background-size: cover; /* Adjust as needed */
   background-position: center; /* Adjust as needed */
 }
