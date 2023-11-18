@@ -12,6 +12,9 @@
 
               <v-divider class="my-4"></v-divider>
 
+              <!-- Input field for updating profile picture -->
+              <v-file-input v-model="editedProfile.profilePicture" label="Profile Picture"></v-file-input>
+
               <v-text-field
                 v-model="editedProfile.currentPassword"
                 label="Current Password"
@@ -39,6 +42,7 @@ export default {
         fullName: '',
         email: '',
         bio: '',
+        profilePicture: null, // Store the selected file
         currentPassword: '',
         newPassword: '',
         confirmPassword: '',
@@ -47,7 +51,7 @@ export default {
   },
   methods: {
     saveChanges() {
-      // Add logic to save changes to the profile
+      // Add logic to save changes to the profile, including the profile picture
       console.log('Changes saved!', this.editedProfile);
       // After saving, you can navigate back to the profile page
       this.$router.push('/profile');
