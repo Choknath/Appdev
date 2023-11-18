@@ -17,7 +17,6 @@
 </template>
 
 <script>
-import router from '@/router';
 import axios from 'axios';
 
 export default {
@@ -31,7 +30,7 @@ export default {
   methods: {
     async login() {
       try {
-        const { data } = await axios.post('login', {
+        const { data } = await axios.post('/login', {
           username: this.username,
           password: this.password,
         });
