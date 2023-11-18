@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import SignPage from '../views/SignPage.vue'
 
-
 const routes = [
   
   {
@@ -42,12 +41,7 @@ const routes = [
   // this generates a separate chunk (about.[hash].js) for this route
   // which is lazy-loaded when the route is visited.
   component: () => import(/* webpackChunkName: "about" */ '../views/ProfilePage.vue')
-  },
-  {
-    path: '/EditProf',
-    component: () => import(/* webpackChunkName: "about" */ '../views/EditProfile.vue')
-  },
-  
+  }
 ]
 
 const router = createRouter({
