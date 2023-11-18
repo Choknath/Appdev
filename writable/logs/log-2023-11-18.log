@@ -12,3 +12,24 @@ in APPPATH\Controllers\UserController.php on line 21.
  3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
  4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 06:24:08 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 21.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\UserController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 07:35:34 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 21.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\UserController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-18 07:37:14 --> Undefined array key "token"
+in APPPATH\Controllers\UserController.php on line 21.
+ 1 APPPATH\Controllers\UserController.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\UserController.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()

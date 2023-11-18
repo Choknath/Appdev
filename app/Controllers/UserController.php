@@ -10,21 +10,38 @@ class UserController extends ResourceController
 {
     public function login()
     {
+        $password = $this->request->getVar('password');
+        $username = $this->request->getVar('username');
         $user = new UserModel(); 
-    $username = $this->request->getVar('username'); 
-     $password = $this->request->getVar('password'); 
-     $data = $user->where('username', $username)->first(); 
-     if($data){ 
-       $pass = $data['password']; 
-       $authenticatePassword = password_verify($password, $pass); 
-       if($authenticatePassword){ 
-         return $this->respond(['msg' => 'okay', 'token' =>$data['token']]); 
-       }else{ 
-         return $this->respond(['msg' => 'Invalid password'], 200); 
-       } 
-     } else{
-        return $this->respond(['msg'=>'no user found']);
-     }
+        $data = $user->where('username', $username)->first();
+        if ($data) {
+            $pass = $data['password']; 
+            $authenticatePassword = password_verify($password, $pass); 
+            if($authenticatePassword){ 
+                return $this->respond(['msg' => 'okay', 'token' =>$data['verification_token']],200); 
+            }else{
+                return $this->respond(['msg'=>'Invalid Password'],200);
+            }
+        }else{
+            return $this->respond(['msg'=>'No user Found'],200);
+        }
+
+       
+    //     $user = new UserModel(); 
+    // $username = $this->request->getVar('username'); 
+    //  $password = $this->request->getVar('password'); 
+    //  $data = $user->where('username', $username)->first(); 
+    //  if($data){ 
+    //    $pass = $data['password']; 
+    //    $authenticatePassword = password_verify($password, $pass); 
+    //    if($authenticatePassword){ 
+    //      return $this->respond(['msg' => 'okay', 'token' =>$data['token']]); 
+    //    }else{ 
+    //      return $this->respond(['msg' => 'Invalid password'], 200); 
+    //    } 
+    //  } else{
+    //     return $this->respond(['msg'=>'no user found']);
+    //  }
     }
 
     public function register()
@@ -70,11 +87,16 @@ class UserController extends ResourceController
         // var_dump($data);
     } 
 
-    public function verification($length){ 
+    public function verification($length)
+    { 
         $str_result = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'; 
          return substr(str_shuffle($str_result), 0, $length); 
-      } 
+    } 
     
+    public function UpdateInfo()
+    {
+        // logic para sa pag uupdata ng username, email, bio , password,
+    }
       
     
 }
