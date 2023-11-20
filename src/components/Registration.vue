@@ -37,105 +37,51 @@
       };
     },
     methods: {
-      async register() {
-        /*        try {
-          console.log('test');
-  const ins = await axios.post('/register', {
-    username: this.username,
-    email: this.email,
-    fullname: this.fullname,
-    password: this.password,
-  });
-}
-  catch (error) {
-  // Handle other errors, such as network issues or server errors
-  console.error('An error occurred during registration:', error);
-  // You might want to set an error message or handle it in some way
-} */
+  async register() {
+    try {
+      // Check if passwords match
+      if (this.password !== this.passwordConfirm) {
+        this.message = 'passwordMismatch';
+        return;
+      }
 
+      // Make the API call to check if the username exists
+      const usernameCheckResponse = await axios.post('/register', {
+        username: this.username,
+      });
 
-try {
-    // Check if passwords match
-    if (this.password !== this.passwordConfirm) {
-      this.message = 'passwordMismatch';
-      return;
+      // Handle the response from the username check
+      if (!usernameCheckResponse.data.available) {
+        // Username is not available
+        console.error('Username already exists');
+        this.message = 'usernameTaken';
+        return;
+      }
+
+      // Proceed with user registration
+      const registrationResponse = await axios.post('register', {
+        username: this.username,
+        email: this.email,
+        full_name: this.full_name,
+        password: this.password,
+      });
+
+      // Handle the response from the backend registration
+      if (registrationResponse.data.success) {
+        // Registration successful
+        console.log('Registration successful');
+        // You can redirect or show a success message here
+      } else {
+        // Registration failed for some reason
+        console.error('Registration failed:', registrationResponse.data.message);
+        this.message = 'registrationFailed';
+      }
+    } catch (error) {
+      // Handle other errors, such as network issues or server errors
+      console.error('An error occurred during registration:', error);
+      this.message = 'error';
     }
-
-    // Make the API call to your CodeIgniter 4 backend
-    const response = await axios.post('register', {
-      username: this.username,
-      email: this.email,
-      full_name: this.full_name,
-      password: this.password,
-    });
-
-    // Handle the response from the backend
-    if (response.data.success) {
-      // Registration successful
-      console.log('Registration successful');
-      // You can redirect or show a success message here
-    } else {
-      // Registration failed for some reason
-      console.error('Registration failed:', response.data.message);
-      this.message = 'registrationFailed';
-    }
-  } catch (error) {
-    // Handle other errors, such as network issues or server errors
-    console.error('An error occurred during registration:', error);
-    this.message = 'error';
+  },
+},
   }
-
-
-      //       try {
-      //   // Check if passwords match
-      //   if (this.password !== this.passwordConfirm) {
-      //     this.message = 'passwordMismatch';
-      //     return;
-      //   }
-
-      //   // Make the API call to your CodeIgniter 4 backend
-      //   const response = await axios.post('register', {
-      //     username: this.username,
-      //     email: this.email,
-      //     full_name: this.full_name,
-      //     password: this.password,
-      //   });
-
-      //   // Handle the response from the backend
-      //   if (response.data.success) {
-      //     // Registration successful
-      //     console.log('Registration successful');
-      //     // You can redirect or show a success message here
-      //   } else {
-      //     // Registration failed
-      //     console.error('Registration failed');
-      //     this.message = 'error';
-      //   }
-      // } catch (error) {
-      //   // Handle other errors, such as network issues or server errors
-      //   console.error('An error occurred during registration:', error);
-      //   this.message = 'error';
-      // }
-      
-        // if (this.password === this.passwordConfirm) {
-        //   const data = await axios.post('register', {
-        //     username: this.username,
-        //     email: this.email,
-        //     fullname: this.fullname,
-        //     password: this.password,
-        //   });
-  
-        //   this.message = data.data.msg;
-  
-        //   if (data.data.msg === 'okay') {
-        //     // sessionStorage.setItem("jwt", data.data.token)
-        //     alert('Registered successfully');
-        //     router.push('/');
-        //   }
-        // } else {
-        //   this.message = 'passwordMismatch';
-        // }
-      },
-    },
-  };
   </script>

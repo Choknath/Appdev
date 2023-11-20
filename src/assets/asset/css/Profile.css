@@ -8,3 +8,31 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
     }
+
+    /* Your scoped styles for the profile page */
+.profile-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .profile-name {
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .text-subtitle-1 {
+    color: #888;
+    margin-bottom: 16px;
+  }
+  
+  .edit-profile-btn {
+    color: teal;
+  }
