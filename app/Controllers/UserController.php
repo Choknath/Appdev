@@ -25,44 +25,62 @@ class UserController extends ResourceController
         }else{
             return $this->respond(['msg'=>'No user Found'],200);
         }
-
-       
-    //     $user = new UserModel(); 
-    // $username = $this->request->getVar('username'); 
-    //  $password = $this->request->getVar('password'); 
-    //  $data = $user->where('username', $username)->first(); 
-    //  if($data){ 
-    //    $pass = $data['password']; 
-    //    $authenticatePassword = password_verify($password, $pass); 
-    //    if($authenticatePassword){ 
-    //      return $this->respond(['msg' => 'okay', 'token' =>$data['token']]); 
-    //    }else{ 
-    //      return $this->respond(['msg' => 'Invalid password'], 200); 
-    //    } 
-    //  } else{
-    //     return $this->respond(['msg'=>'no user found']);
-    //  }
     }
 
     public function register()
     {
         $user = new UserModel();
-        $token = $this->verification(50); 
-        $data = [ 
-          'username' => $this->request->getVar('username'), 
-          'password' => password_hash($this->request->getVar('password'),PASSWORD_DEFAULT), 
-          'email' => $this->request->getVar('email'),
-          'full_name' => $this->request->getVar('full_name'),
-          'verification_token' => $token,    
-          'status' => 'active', 
-          'role' =>'user',
-        ]; 
-        $u = $user->save($data); 
-        if($u){ 
-          return $this->respond(['msg' => 'okay', 'token' =>$token]); 
-        }else{ 
-          return $this->respond(['msg' => 'failed']); 
-        } 
+
+        // Check if the username already exists
+        $existingUser = $user->where('email', $this->request->getVar('email'))->first();
+        if ($existingUser) {
+            // Username already exists
+            return $this->respond(['msg' => 'failed', 'error' => 'email already taken']);
+        }
+    
+        // Generate a verification token
+        $token = $this->verification(50);
+    
+        // Prepare data for user registration
+        $data = [
+            'username' => $this->request->getVar('username'),
+            'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+            'email' => $this->request->getVar('email'),
+            'full_name' => $this->request->getVar('full_name'),
+            'verification_token' => $token,
+            'status' => 'active',
+            'role' => 'user',
+        ];
+    
+        // Save the user data
+        $u = $user->save($data);
+    
+        if ($u) {
+            // Registration successful
+            return $this->respond(['msg' => 'okay', 'token' => $token]);
+        } else {
+            // Registration failed
+            return $this->respond(['msg' => 'failed']);
+        }
+    
+
+        // $user = new UserModel();
+        // $token = $this->verification(50); 
+        // $data = [ 
+        //   'username' => $this->request->getVar('username'), 
+        //   'password' => password_hash($this->request->getVar('password'),PASSWORD_DEFAULT), 
+        //   'email' => $this->request->getVar('email'),
+        //   'full_name' => $this->request->getVar('full_name'),
+        //   'verification_token' => $token,    
+        //   'status' => 'active',     
+        //   'role' =>'user',
+        // ]; 
+        // $u = $user->save($data); 
+        // if($u){ 
+        //   return $this->respond(['msg' => 'okay', 'token' =>$token]); 
+        // }else{ 
+        //   return $this->respond(['msg' => 'failed']); 
+        // } 
 
 
         // // $json = $this->request->getJSON();

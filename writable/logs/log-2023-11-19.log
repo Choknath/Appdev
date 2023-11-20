@@ -1,0 +1,668 @@
+CRITICAL - 2023-11-19 11:54:22 --> Undefined variable $userData
+in APPPATH\Controllers\ProfileController.php on line 40.
+ 1 APPPATH\Controllers\ProfileController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->Status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 11:54:39 --> Undefined variable $userData
+in APPPATH\Controllers\ProfileController.php on line 40.
+ 1 APPPATH\Controllers\ProfileController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->Status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 11:54:39 --> Undefined variable $userData
+in APPPATH\Controllers\ProfileController.php on line 40.
+ 1 APPPATH\Controllers\ProfileController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->Status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 11:54:39 --> Undefined variable $userData
+in APPPATH\Controllers\ProfileController.php on line 40.
+ 1 APPPATH\Controllers\ProfileController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->Status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 11:54:40 --> Undefined variable $userData
+in APPPATH\Controllers\ProfileController.php on line 40.
+ 1 APPPATH\Controllers\ProfileController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->Status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 11:54:40 --> Undefined variable $userData
+in APPPATH\Controllers\ProfileController.php on line 40.
+ 1 APPPATH\Controllers\ProfileController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->Status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 11:57:46 --> Undefined property: App\Controllers\ProfileController::$session
+in APPPATH\Controllers\ProfileController.php on line 14.
+ 1 APPPATH\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProfileController::$session', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->Status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 12:01:52 --> Undefined property: App\Controllers\ProfileController::$load
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProfileController::$load', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\ProfileController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 12:01:53 --> Undefined property: App\Controllers\ProfileController::$load
+in APPPATH\Controllers\ProfileController.php on line 16.
+ 1 APPPATH\Controllers\ProfileController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProfileController::$load', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\ProfileController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 12:02:30 --> Undefined property: App\Controllers\ProfileController::$session
+in APPPATH\Controllers\ProfileController.php on line 14.
+ 1 APPPATH\Controllers\ProfileController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProfileController::$session', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->Status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 12:09:49 --> Call to undefined function App\Controllers\getUserId()
+in APPPATH\Controllers\ProfileController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 12:09:50 --> Call to undefined function App\Controllers\getUserId()
+in APPPATH\Controllers\ProfileController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 13:25:53 --> Call to undefined function App\Controllers\getUserId()
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 13:26:06 --> Undefined variable $userId
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 16:12:31 --> Too few arguments to function App\Controllers\ProfileController::status(), 0 passed in C:\laragon\www\Appdev\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\ProfileController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 16:13:25 --> Undefined variable $user_id
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:16:38 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:16:38 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:20:29 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:20:29 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 16:20:55 --> Undefined variable $user_id
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 16:21:13 --> Call to undefined function App\Controllers\getUserId()
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 16:22:17 --> Undefined variable $user_id
+in APPPATH\Controllers\ProfileController.php on line 17.
+ 1 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 16:22:33 --> strpos(): Argument #1 ($haystack) must be of type string, array given
+in SYSTEMPATH\Database\BaseBuilder.php on line 577.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(577): strpos([...], ',')
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->from(Object(App\Models\UserModel))
+ 3 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\Model->__call('from', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-19 16:23:29 --> Call to undefined function App\Controllers\user_id()
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:23:52 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:23:52 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:49 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:49 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:51 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:51 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:51 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:51 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:52 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:52 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:52 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:52 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:52 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:52 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:52 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:52 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:52 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:52 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:53 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:53 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:53 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:53 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:53 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:53 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:53 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:53 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:53 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:53 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:24:54 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:24:54 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:25:01 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:25:01 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:25:01 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:25:01 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:25:02 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:25:02 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-19 16:26:17 --> mysqli_sql_exception: Table 'userdata.user_id' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-19 16:26:17 --> Table 'userdata.user_id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `full_name`, `email`, `bio`
+FROM `users`, `user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ProfileController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
