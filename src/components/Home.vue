@@ -1,5 +1,30 @@
 <template>
   <body>
+ 
+<div>
+    <!-- Profile Container -->
+    <v-container class="profile-container">
+      <v-row justify="content-start">
+        <v-menu min-width="200%" rounded>
+          <template v-slot:activator="{ props }">
+            <v-btn icon v-bind="props" size="120">
+              <!-- <img :src="user.profile_picture_url" alt="Profile"> -->
+            </v-btn>
+            <v-text-field v-model="journey" label="Hows you journey"></v-text-field>
+            <v-avatar  size="150">
+                <span class="text-h5">{{ posts.username }}</span>
+              </v-avatar>
+          </template>
+        </v-menu>
+     </v-row>
+   </v-container>
+</div>
+
+
+
+
+
+
 <!-- Bottom Navigation -->
 <v-bottom-navigation v-model="value" color="teal" grow>
       <!-- Your bottom navigation buttons here -->
@@ -60,9 +85,19 @@
   </body>
   </template>
 
-  <style>
-
+<style scoped>
+  .placeholder {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    background-color: #ccc; /* Adjust the background color as needed */
+    border-radius: 50%;
+  }
 </style>
+
 
 <script>
 export default {

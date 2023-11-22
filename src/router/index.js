@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import SignPage from '../views/SignPage.vue'
-
+import Profile from '../views/ProfilePage.vue'
 
 const routes = [
   
@@ -20,7 +20,8 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/HomePage.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/HomePage.vue'),
+    meta:{requiredAuth: true}
   },
   {
     path: '/Event',
@@ -41,8 +42,14 @@ const routes = [
   // route level code-splitting
   // this generates a separate chunk (about.[hash].js) for this route
   // which is lazy-loaded when the route is visited.
-  component: () => import(/* webpackChunkName: "about" */ '../views/ProfilePage.vue')
+  component: () => import(/* webpackChunkName: "about" */ '../views/ProfilePage.vue'),
+  meta:{requiredAuth: true}
   },
+  // {
+  //   path:'/profile',
+  //   component: Profile, 
+  //   meta: {requiredAuth:true}
+  // },
   {
     path: '/EditProf',
     component: () => import(/* webpackChunkName: "about" */ '../views/EditProfile.vue')
@@ -56,5 +63,22 @@ const router = createRouter({
   routes
 })
 
+router.beforeEach((to, from, next) => {
+  const isLoggedin = checkUserLogin();
+ if (to.matched.some((record) => record.meta.requiredAuth)) {
+  if (!isLoggedin) {
+    next('/');
+  } else {
+    next();
+  }
+ }else{
+  next();
+ }
+});
+
+ function checkUserLogin(){
+  const userToken = sessionStorage.getItem("verification_token");
+  return !!userToken;
+}
 
 export default router

@@ -5,13 +5,14 @@
       <v-row justify="center">
         <v-menu min-width="200%" rounded>
           <template v-slot:activator="{ props }">
-            <v-btn icon v-bind="props" size="120">
-              <img :src="user.profile_picture_url" alt="Profile">
-            </v-btn>
             <v-avatar  size="150">
                 <span class="text-h5">{{ user.username }}</span>
               </v-avatar>
+            <v-btn icon v-bind="props" size="120">
+              <img :src="user.profile_picture_url" alt="Profile">
+            </v-btn>
           </template>
+         
           <v-card class="profile-card">
             <v-card-text>
               <div class="mx-auto text-center">
@@ -158,8 +159,11 @@ export default {
   methods: {
     async getProfile() {
       try {
-        const response = await axios.get('/userprofile'); // Use the correct API endpoint
-        this.user = response.data[0]; // Assuming the API returns an array with a single user object
+        const id= sessionStorage.getItem("verification_token")
+        const response = await axios.get(`/userprofile/${id}`, {
+          id:id
+        }); // Use the correct API endpoint
+        this.user = response.data.info; // Assuming the API returns an array with a single user object
       } catch (error) {
         console.log(error);
       }

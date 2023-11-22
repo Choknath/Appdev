@@ -34,20 +34,20 @@ export default {
   },
   methods: {
     async login() {
-      try {
-        const { data } = await axios.post('/login', {
+      // console.log("okay na ")
+      const res = await axios.post('/login', {
           username: this.username,
           password: this.password,
         });
-
-        if (data.msg === 'okay') {
-          router.push('/Home');
+        if (res.data.msg === 'okay') {
+          sessionStorage.setItem("verification_token", res.data.token);
+          router.push('/Home')
+        } else {
+          
         }
-      } catch (error) {
-        console.error('An error occurred during login:', error);
-        this.message = 'error';
-      }
-    },
+
+      
+    }, 
   },
 };
 </script>
