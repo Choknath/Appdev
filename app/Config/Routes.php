@@ -7,8 +7,10 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/market/getData', 'MarketController::getData');
-$routes->get('/userprofile','ProfileController::status');
+$routes->get('/userprofile/(:any)','ProfileController::status/$1');
 $routes->get('/Users', 'UserController::showuser');
 $routes->post('/register', 'USerController::register');
+$routes->post('/checkusername', 'USerController::checkUsernameAvailability');
 $routes->match(['post','get'],'/login', 'UserController::login');
+$routes->get('/post/(:any)', 'PostController::getPost/$1');
 

@@ -1,0 +1,548 @@
+CRITICAL - 2023-11-22 05:11:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 05:11:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 05:11:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 05:11:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 05:11:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 05:16:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 05:18:05 --> Call to undefined method App\Controllers\UserController::verification()
+in APPPATH\Controllers\UserController.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 05:52:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 05:54:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 06:00:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 06:00:19 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 06:00:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:45:26 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:45:26 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:45:55 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:45:55 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:45:56 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:45:56 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:45:56 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:45:56 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:47:17 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:47:17 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:47:18 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:47:18 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:47:19 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:47:19 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:47:19 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:47:19 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:48:14 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:48:14 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:49:56 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:49:56 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:49:57 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:49:57 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:50:36 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:50:36 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:50:37 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:50:37 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:50:37 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:50:37 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 07:50:40 --> mysqli_sql_exception: Table 'userdata.post' doesn't exist in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 07:50:40 --> Table 'userdata.post' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `post`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 08:05:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 08:06:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 08:07:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 08:11:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 08:16:16 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\ProfileController.php on line 15.
+ 1 APPPATH\Controllers\ProfileController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 15)
+ 2 APPPATH\Controllers\ProfileController.php(19): App\Controllers\ProfileController->getUser('null')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->status('null')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-22 08:34:23 --> mysqli_sql_exception: Unknown column 'verification_toke' in 'where clause' in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Appdev\app\Controllers\PostController.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\PostController->getPost('vcmzM45WYyoC12n...')
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(87): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-22 08:34:23 --> Unknown column 'verification_toke' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+JOIN `users` ON `posts`.`user_id`=`users`.`user_id`
+WHERE `verification_toke` = :verification_toke:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\PostController.php(23): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->getPost('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 11:31:07 --> Call to undefined method App\Controllers\UserController::verification()
+in APPPATH\Controllers\UserController.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-22 11:31:14 --> Call to undefined method App\Controllers\UserController::verification()
+in APPPATH\Controllers\UserController.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
