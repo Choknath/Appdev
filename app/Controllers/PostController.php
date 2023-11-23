@@ -23,5 +23,12 @@ class PostController extends ResourceController {
         $cnt = $post->join('users', 'posts.user_id=users.user_id')->where('verification_token', $id)->findAll();
         return $this->respond($cnt, 200);
     }
+
+    public function ContentPost(){
+        $cont = new PostModel();
+        $pst = $cont->findall();
+        return $this->respond($pst, 200);
+    }
+
 }
 
