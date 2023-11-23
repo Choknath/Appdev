@@ -7,9 +7,8 @@
         <v-col v-for="(event, index) in events" :key="index" cols="12" md="4">
           <v-card>
             <v-img :src="event.image" alt="event.name"></v-img>
-            <v-card-title>{{ event.name }}</v-card-title>
-            <v-card-subtitle>{{ event.date }}</v-card-subtitle>
-            <v-card-text>{{ event.description }}</v-card-text>
+            <v-card-title>{{ event.event_name }}</v-card-title>
+         
             <v-card-actions>
               <v-btn @click="viewEventDetails(index)">View Details</v-btn>
             </v-card-actions>
@@ -19,10 +18,11 @@
 
       <!-- Modal for each event -->
       <v-dialog v-model="selectedEvent.dialog" max-width="600">
-        <v-card>
-          <v-card-title>{{ selectedEvent.name }}</v-card-title>
-          <v-card-subtitle>{{ selectedEvent.date }}</v-card-subtitle>
-          <v-card-text>{{ selectedEvent.description }}</v-card-text>
+        <v-card class="mx-auto">
+          <v-card-title>{{ selectedEvent.event_name }}</v-card-title>
+          <v-card-text>{{ selectedEvent.event_description }}</v-card-text>
+          <v-card-text>{{ selectedEvent.event_location }}</v-card-text>
+          <v-card-subtitle>{{ selectedEvent.event_date }}</v-card-subtitle>
           <v-card-actions>
             <v-btn @click="closeEventDetails">Close</v-btn>
           </v-card-actions>
@@ -32,98 +32,91 @@
 
     <!-- Bottom Navigation -->
     <v-bottom-navigation v-model="value" color="teal" grow>
-      <!-- Your bottom navigation buttons here -->
-      <v-btn>
-  <v-icon>
-    <a href="/Home">
-      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
-        <i class="fa fa-users" aria-hidden="true"></i>
-      </div>
-      <div class="text" data-type="Community" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
-        Community
-      </div>
-    </a>
-  </v-icon>
-</v-btn>
+      <v-btn @click="$router.push('/Home')">
+        <v-icon>
+          <div class="icon">
+            <i class="fa fa-users" aria-hidden="true"></i>
+          </div>
+          <div class="text" data-type="Community">
+            Community
+          </div>
+        </v-icon>
+      </v-btn>
 
-<v-btn>
-  <v-icon>
-    <a href="/Event">
-      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
-        <i class="fa fa-calendar" aria-hidden="true"></i>
-      </div>
-      <div class="text" data-type="Event" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
-        Event
-      </div>
-    </a>
-  </v-icon>
-</v-btn>
+      <v-btn @click="$router.push('/Event')">
+        <v-icon>
+          <div class="icon">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+          </div>
+          <div class="text" data-type="Event">
+            Event
+          </div>
+        </v-icon>
+      </v-btn>
 
-<v-btn>
-  <v-icon>
-    <a href="/Market">
-      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
-        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-      </div>
-      <div class="text" data-type="Market" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
-        Market
-      </div>
-    </a>
-  </v-icon>
-</v-btn>
-<v-btn>
-  <v-icon>
-    <a href="Profile">
-      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
-        <i class="fa fa-user"></i>
-      </div>
-      <div class="text" data-type="Profile" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
-        Profile
-      </div>
-    </a>
-  </v-icon>
-</v-btn>
+      <v-btn @click="$router.push('/Market')">
+        <v-icon>
+          <div class="icon">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </div>
+          <div class="text" data-type="Market">
+            Market
+          </div>
+        </v-icon>
+      </v-btn>
+
+      <v-btn @click="$router.push('/Profile')">
+        <v-icon>
+          <div class="icon">
+            <i class="fa fa-user"></i>
+          </div>
+          <div class="text" data-type="Profile">
+            Profile
+          </div>
+        </v-icon>
+      </v-btn>
     </v-bottom-navigation>
   </div>
 </template>
 
 <script>
+import axios from 'axios';
+import { useRouter } from 'vue-router';
+
 export default {
   data() {
     return {
-      events: [
-        {
-          name: "Event 1",
-          date: "Event Date 1",
-          description: "Description of Event 1",
-          image: "event1.jpg", // Update with correct image paths
-        },
-        {
-          name: "Event 2",
-          date: "Event Date 2",
-          description: "Description of Event 2",
-          image: "event2.jpg", // Update with correct image paths
-        },
-        // Add more events here
-      ],
+      events: [],
       selectedEvent: {
-        name: "",
-        date: "",
-        description: "",
+        event_name: "",
+        event_description: "",
+        event_location: "",
+        event_date: "",
+     
         dialog: false,
       },
       value: 0,
     };
   },
+  created() {
+    this.getevents();
+    this.$router = useRouter(); // Assuming you are using Vue Router
+  },
   methods: {
+    async getevents() {
+      try {
+        const response = await axios.get('/Event');
+        this.events = response.data;
+      } catch (error) {
+        console.error('Error fetching events:', error);
+        // Optionally, show an error message to the user
+      }
+    },
     viewEventDetails(index) {
       this.selectedEvent = { ...this.events[index], dialog: true };
     },
     closeEventDetails() {
       this.selectedEvent.dialog = false;
-    },
-    navigateTo(route) {
-      this.$router.push(route);
     },
   },
 };

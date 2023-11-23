@@ -6,13 +6,13 @@
         <v-menu min-width="200%" rounded>
           <template v-slot:activator="{ props }">
             <v-avatar  size="150">
-                <span class="text-h5">{{ user.username }}</span>
-              </v-avatar>
+              <span class="text-h5">{{ user.username }}</span>
+            </v-avatar>
             <v-btn icon v-bind="props" size="120">
               <img :src="user.profile_picture_url" alt="Profile">
             </v-btn>
           </template>
-         
+          
           <v-card class="profile-card">
             <v-card-text>
               <div class="mx-auto text-center">
@@ -28,120 +28,88 @@
               </div>
             </v-card-text>
           </v-card>
+
+          <!-- Event List -->
+          <v-row>
+            <v-col v-for="(event, index) in events" :key="index" cols="12" md="4">
+              <v-card>
+                <v-img :src="event.event_image_url || 'fallback_image_url.jpg'" alt="event.name"></v-img>
+                <v-card-title>{{ event.event_name }}</v-card-title>
+                <v-card-subtitle>{{ event.event_date }}</v-card-subtitle>
+                <v-card-text>{{ event.event_description }}</v-card-text>
+                <v-card-actions>
+                  <v-btn @click="viewEventDetails(index)">View Details</v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-col>
+          </v-row>
         </v-menu>
       </v-row>
-    </v-container>
 
-    <!-- Bottom Navigation -->
-    <v-bottom-navigation v-model="value" color="teal" grow>
-   <!-- Bottom Navigation -->
-   <v-bottom-navigation v-model="value" color="teal" grow>
-      <!-- Your bottom navigation buttons here -->
-      <v-btn>
-  <v-icon>
-    <a href="/Home">
-      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
-        <i class="fa fa-users" aria-hidden="true"></i>
-      </div>
-      <div class="text" data-type="Community" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
-        Community
-      </div>
-    </a>
-  </v-icon>
-</v-btn>
+      <router-link to="/ProfEvent" class="d-block mt-2">ADD EVENT</router-link>
+      <!-- Bottom Navigation -->
+      <v-bottom-navigation v-model="value" color="teal" grow>
+        <!-- Bottom Navigation buttons -->
+        <v-btn>
+          <v-icon>
+            <a href="/Home">
+              <div class="icon" style="font-size: 16px;">
+                <i class="fa fa-users" aria-hidden="true"></i>
+              </div>
+              <div class="text" data-type="Community" style="font-size: 12px;">
+                Community
+              </div>
+            </a>
+          </v-icon>
+        </v-btn>
 
-<v-btn>
-  <v-icon>
-    <a href="/Event">
-      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
-        <i class="fa fa-calendar" aria-hidden="true"></i>
-      </div>
-      <div class="text" data-type="Event" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
-        Event
-      </div>
-    </a>
-  </v-icon>
-</v-btn>
+        <v-btn>
+          <v-icon>
+            <a href="/Event">
+              <div class="icon" style="font-size: 16px;">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+              </div>
+              <div class="text" data-type="Event" style="font-size: 12px;">
+                Event
+              </div>
+            </a>
+          </v-icon>
+        </v-btn>
 
-<v-btn>
-  <v-icon>
-    <a href="/Market">
-      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
-        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-      </div>
-      <div class="text" data-type="Market" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
-        Market
-      </div>
-    </a>
-  </v-icon>
-</v-btn>
-<v-btn>
-  <v-icon>
-    <a href="Profile">
-      <div class="icon" style="font-size: 16px;"> <!-- Adjust the font-size as needed -->
-        <i class="fa fa-user"></i>
-      </div>
-      <div class="text" data-type="Profile" style="font-size: 12px;"> <!-- Adjust the font-size as needed -->
-        Profile
-      </div>
-    </a>
-  </v-icon>
-</v-btn>  
-    </v-bottom-navigation>
+        <v-btn>
+          <v-icon>
+            <a href="/Market">
+              <div class="icon" style="font-size: 16px;">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </div>
+              <div class="text" data-type="Market" style="font-size: 12px;">
+                Market
+              </div>
+            </a>
+          </v-icon>
+        </v-btn>
+
+        <v-btn>
+          <v-icon>
+            <a href="Profile">
+              <div class="icon" style="font-size: 16px;">
+                <i class="fa fa-user"></i>
+              </div>
+              <div class="text" data-type="Profile" style="font-size: 12px;">
+                Profile
+              </div>
+            </a>
+          </v-icon>
+        </v-btn>  
+      </v-bottom-navigation>
+      
       <v-btn>
         <v-icon> <!-- Add your icon here -->
         </v-icon>
       </v-btn>
-    </v-bottom-navigation>
+    </v-container>
   </div>
 </template>
-
-<!-- <script>
-import axios from 'axios';
-
-export default {
-  data() {
-    return {
-      value: 0,
-      user: [],
-    };
-  },
-  created() {
-    // this.getInfo()
-    this.getuser()
-  },
-  methods: {
-    async getuser(){
-      try {
-        const prof = await axios.get('/userprofile')
-        this.user = prof.data;
-      } catch (error) {
-        console.log(error)
-      };
-    },
-    editProfile() {
-      // Add logic to navigate to the edit profile page
-      this.$router.push('/edit-profile');
-    },
-   /* async getInfo() {
-      try {
-        const response = await axios.get('c:\Users\Mark Jober Laudencia\Downloads\Community Cyclist Club.png');
-        this.user = response.data;
-      } catch (error) {
-        console.log(error);
-      }
-    },*/
-    goToEditProfile() {
-      // Add navigation logic to the Edit Profile page
-      this.$router.push('/EditProf');
-    },
-    navigateTo(route) {
-      // Add navigation logic for the bottom navigation buttons
-      this.$router.push(route);
-    },
-  },
-};
-</script> -->
 
 <script>
 import axios from 'axios';
@@ -150,41 +118,64 @@ export default {
   data() {
     return {
       value: 0,
-      user:{},
+      user: {},
+      events: [],
+      selectedEvent: {
+        name: "",
+        date: "",
+        description: "",
+        dialog: false,
+      },
+      newEvent: {
+        name: "",
+        date: "",
+        description: "",
+      },
     };
   },
   created() {
     this.getProfile();
-  },  
+    // Fetch events or initialize events array as needed
+    // this.getEvents();
+  },
   methods: {
     async getProfile() {
       try {
-        const id= sessionStorage.getItem("verification_token")
+        const id = sessionStorage.getItem("verification_token")
         const response = await axios.get(`/userprofile/${id}`, {
-          id:id
-        }); // Use the correct API endpoint
-        this.user = response.data.info; // Assuming the API returns an array with a single user object
+          id: id
+        });
+        this.user = response.data.info;
       } catch (error) {
         console.log(error);
       }
     },
     editProfile() {
-      // Add logic to navigate to the edit profile page
       this.$router.push('/edit-profile');
     },
     goToEditProfile() {
-      // Add navigation logic to the Edit Profile page
       this.$router.push('/EditProf');
     },
     navigateTo(route) {
-      // Add navigation logic for the bottom navigation buttons
       this.$router.push(route);
+    },
+    addEvent() {
+      if (this.newEvent.name && this.newEvent.date && this.newEvent.description) {
+        this.events.push({ ...this.newEvent });
+        this.newEvent = { name: "", date: "", description: "" };
+      }
+    },
+    viewEventDetails(index) {
+      this.selectedEvent = { ...this.events[index], dialog: true };
+    },
+    closeEventDetails() {
+      this.selectedEvent.dialog = false;
     },
   },
 };
 </script>
 
-
 <style scoped>
-@import'../assets/asset/css/Profile.css';
+@import '../assets/asset/css/Profile.css';
+/* Additional styling for the event page, if needed */
 </style>
