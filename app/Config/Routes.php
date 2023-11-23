@@ -13,4 +13,5 @@ $routes->post('/register', 'USerController::register');
 $routes->post('/checkusername', 'USerController::checkUsernameAvailability');
 $routes->match(['post','get'],'/login', 'UserController::login');
 $routes->get('/post/(:any)', 'PostController::getPost/$1');
-
+$routes->get('/Event', 'EventController::getevent');
+$routes->post('/addEvent', 'EventController::addEvent');

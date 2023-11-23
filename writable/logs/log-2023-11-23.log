@@ -1,0 +1,32 @@
+CRITICAL - 2023-11-23 15:31:59 --> Undefined variable $imageName
+in APPPATH\Controllers\EventController.php on line 27.
+ 1 APPPATH\Controllers\EventController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Appdev\\public\\index.php')
+CRITICAL - 2023-11-23 15:38:51 --> Undefined property: stdClass::$event_data
+in APPPATH\Controllers\EventController.php on line 23.
+ 1 APPPATH\Controllers\EventController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_data', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Appdev\\public\\index.php')
+CRITICAL - 2023-11-23 15:39:22 --> Undefined property: stdClass::$event_data
+in APPPATH\Controllers\EventController.php on line 23.
+ 1 APPPATH\Controllers\EventController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_data', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Appdev\\public\\index.php')
+CRITICAL - 2023-11-23 15:40:44 --> Undefined variable $main
+in APPPATH\Controllers\EventController.php on line 28.
+ 1 APPPATH\Controllers\EventController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $main', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(87): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Appdev\\public\\index.php')
