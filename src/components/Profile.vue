@@ -47,60 +47,29 @@
       </v-row>
 
       <router-link to="/ProfEvent" class="d-block mt-2">ADD EVENT</router-link>
-      <!-- Bottom Navigation -->
-      <v-bottom-navigation v-model="value" color="teal" grow>
-        <!-- Bottom Navigation buttons -->
-        <v-btn>
-          <v-icon>
-            <a href="/Home">
-              <div class="icon" style="font-size: 16px;">
-                <i class="fa fa-users" aria-hidden="true"></i>
-              </div>
-              <div class="text" data-type="Community" style="font-size: 12px;">
-                Community
-              </div>
-            </a>
-          </v-icon>
+
+      
+       <!-- Bottom Navigation -->
+       <v-bottom-navigation v-model="value" color="teal" grow>
+        <v-btn to="/Home">
+          <v-icon>mdi-account-group</v-icon>
+          <div class="text">Community</div>
         </v-btn>
 
-        <v-btn>
-          <v-icon>
-            <a href="/Event">
-              <div class="icon" style="font-size: 16px;">
-                <i class="fa fa-calendar" aria-hidden="true"></i>
-              </div>
-              <div class="text" data-type="Event" style="font-size: 12px;">
-                Event
-              </div>
-            </a>
-          </v-icon>
+        <v-btn to="/Market">
+          <v-icon>mdi-shopping</v-icon>
+          <div class="text">Market</div>
         </v-btn>
 
-        <v-btn>
-          <v-icon>
-            <a href="/Market">
-              <div class="icon" style="font-size: 16px;">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-              </div>
-              <div class="text" data-type="Market" style="font-size: 12px;">
-                Market
-              </div>
-            </a>
-          </v-icon>
+        <v-btn to="/Event">
+          <v-icon>mdi-calendar</v-icon>
+          <div class="text">Event</div>
         </v-btn>
 
-        <v-btn>
-          <v-icon>
-            <a href="Profile">
-              <div class="icon" style="font-size: 16px;">
-                <i class="fa fa-user"></i>
-              </div>
-              <div class="text" data-type="Profile" style="font-size: 12px;">
-                Profile
-              </div>
-            </a>
-          </v-icon>
-        </v-btn>  
+        <v-btn to="/Profile">
+          <v-icon>mdi-account</v-icon>
+          <div class="text">Profile</div>
+        </v-btn>
       </v-bottom-navigation>
       
       <v-btn>

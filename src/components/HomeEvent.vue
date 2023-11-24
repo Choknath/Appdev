@@ -30,52 +30,29 @@
       </v-dialog>
     </v-container>
 
-    <!-- Bottom Navigation -->
-    <v-bottom-navigation v-model="value" color="teal" grow>
-      <v-btn @click="$router.push('/Home')">
-        <v-icon>
-          <div class="icon">
-            <i class="fa fa-users" aria-hidden="true"></i>
-          </div>
-          <div class="text" data-type="Community">
-            Community
-          </div>
-        </v-icon>
-      </v-btn>
+    
+     <!-- Bottom Navigation -->
+     <v-bottom-navigation v-model="value" color="teal" grow>
+        <v-btn to="/Home">
+          <v-icon>mdi-account-group</v-icon>
+          <div class="text">Community</div>
+        </v-btn>
 
-      <v-btn @click="$router.push('/Event')">
-        <v-icon>
-          <div class="icon">
-            <i class="fa fa-calendar" aria-hidden="true"></i>
-          </div>
-          <div class="text" data-type="Event">
-            Event
-          </div>
-        </v-icon>
-      </v-btn>
+        <v-btn to="/Market">
+          <v-icon>mdi-shopping</v-icon>
+          <div class="text">Market</div>
+        </v-btn>
 
-      <v-btn @click="$router.push('/Market')">
-        <v-icon>
-          <div class="icon">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-          </div>
-          <div class="text" data-type="Market">
-            Market
-          </div>
-        </v-icon>
-      </v-btn>
+        <v-btn to="/Event">
+          <v-icon>mdi-calendar</v-icon>
+          <div class="text">Event</div>
+        </v-btn>
 
-      <v-btn @click="$router.push('/Profile')">
-        <v-icon>
-          <div class="icon">
-            <i class="fa fa-user"></i>
-          </div>
-          <div class="text" data-type="Profile">
-            Profile
-          </div>
-        </v-icon>
-      </v-btn>
-    </v-bottom-navigation>
+        <v-btn to="/Profile">
+          <v-icon>mdi-account</v-icon>
+          <div class="text">Profile</div>
+        </v-btn>
+      </v-bottom-navigation>
   </div>
 </template>
 

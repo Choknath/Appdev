@@ -34,7 +34,9 @@
   </v-container>
 </template>
 
+ 
 <script>
+import axios from 'axios';
 export default {
   data() {
     return {
@@ -50,6 +52,9 @@ export default {
     };
   },
   methods: {
+    async Update(){
+    
+    },
     saveChanges() {
       // Add logic to save changes to the profile, including the profile picture
       console.log('Changes saved!', this.editedProfile);

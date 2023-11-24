@@ -1,109 +1,26 @@
-<!-- <template>
-
-  <div class="container d-flex align-items-center justify-content-center h-100">
-    <div class="v-container theme-container">
-    <v-sheet  width="300" class="mx-auto" >
-  <v-form fast-fail @submit.prevent="register" class="text-center">
-      <div v-if="message === 'error'">Invalid response</div>
-
-      <v-text-field v-model="username" label="Username"></v-text-field>
-      <v-text-field v-model="email" label="Email"></v-text-field>
-      <v-text-field v-model="full_name" label="Full Name"></v-text-field>
-      <v-text-field v-model="password" label="Password" type="password"></v-text-field>
-      <v-text-field v-model="passwordConfirm" label="Password Confirm" type="password"></v-text-field>
-
-      <div v-if="message === 'passwordMismatch'">Passwords do not match</div>
-     
-
-      <v-btn type="submit" block class="mt-2">Submit</v-btn>
-      <router-link to="/">Login</router-link>
-    </v-form>
-  </v-sheet>
-    </div>  
-  </div>  
-  </template>
-
-  <script>
-  import axios from 'axios';
-  export default {
-    data() {
-      return {
-        username: '',
-        email: '',
-        full_name: '',
-        password: '',
-        passwordConfirm: '',
-      message: null,
-      
-      };
-    },
-    methods: {
-  async register() {
-    try {
-      // Check if passwords match
-      if (this.password !== this.passwordConfirm) {
-        this.message = 'passwordMismatch';
-        return;
-      }
-
-      // Make the API call to check if the username exists
-      const usernameCheckResponse = await axios.post('/register', {
-        username: this.username,
-      });
-
-      // Handle the response from the username check
-      if (!usernameCheckResponse.data.available) {
-        // Username is not available
-        console.error('Username already exists');
-        this.message = 'usernameTaken';
-        return;
-      }
-
-      // Proceed with user registration
-      const registrationResponse = await axios.post('register', {
-        username: this.username,
-        email: this.email,
-        full_name: this.full_name,
-        password: this.password,
-      });
-
-      // Handle the response from the backend registration
-      if (registrationResponse.data.success) {
-        // Registration successful
-        console.log('Registration successful');
-        // You can redirect or show a success message here
-      } else {
-        // Registration failed for some reason
-        console.error('Registration failed:', registrationResponse.data.message);
-        this.message = 'registrationFailed';
-      }
-    } catch (error) {
-      // Handle other errors, such as network issues or server errors
-      console.error('An error occurred during registration:', error);
-      this.message = 'error';
-    }
-  },
-},
-  }
-  </script> -->
-
 <template>
   <div class="container d-flex align-items-center justify-content-center h-100">
     <div class="v-container theme-container">
       <v-sheet width="300" class="mx-auto">
         <v-form fast-fail @submit.prevent="register" class="text-center">
           <div v-if="message === 'error'">Invalid response</div>
+          <div v-if="registrationSuccess">Registration successful!</div>
 
-          <v-text-field v-model="username" label="Username"></v-text-field>
-          <v-text-field v-model="email" label="Email"></v-text-field>
-          <v-text-field v-model="full_name" label="Full Name"></v-text-field>
-          <v-text-field v-model="password" label="Password" type="password"></v-text-field>
+          <v-text-field v-model="username" label="Username" :rules="usernameRules"></v-text-field>
+          <v-text-field v-model="email" label="Email" :rules="emailRules"></v-text-field>
+          <v-text-field v-model="full_name" label="Full Name" :rules="fullNameRules"></v-text-field>
+          <v-text-field v-model="password" label="Password" type="password" :rules="passwordRules"></v-text-field>
           <v-text-field v-model="passwordConfirm" label="Password Confirm" type="password"></v-text-field>
 
           <div v-if="message === 'passwordMismatch'">Passwords do not match</div>
+          <div v-if="message === 'usernameTaken'">Username is already taken</div>
+          <div v-if="message === 'emailTaken'">Email is already taken</div>
+          <div v-if="message === 'fullNameTaken'">Full Name is already taken</div>
+          <div v-if="message === 'passwordRequirements'">Password must contain at least one special character and be at least 8 characters long</div>
 
           <v-btn type="submit" block class="mt-2">Submit</v-btn>
           <router-link to="/">Login</router-link>
+
         </v-form>
       </v-sheet>
     </div>
@@ -112,6 +29,7 @@
 
 <script>
 import axios from 'axios';
+
 export default {
   data() {
     return {
@@ -121,6 +39,22 @@ export default {
       password: '',
       passwordConfirm: '',
       message: null,
+      registrationSuccess: false,
+      usernameRules: [
+        (v) => !!v || 'Username is required',
+        (v) => (v && v.length >= 4) || 'Username must be at least 4 characters',
+      ],
+      emailRules: [
+        (v) => !!v || 'Email is required',
+        (v) => /.+@.+\..+/.test(v) || 'Email must be valid',
+      ],
+      fullNameRules: [
+        (v) => !!v || 'Full Name is required',
+      ],
+      passwordRules: [
+        (v) => !!v || 'Password is required',
+        (v) => /^(?=.*[!@#$%^&*_])(?=.*[a-zA-Z])(?=.*[0-9]).{8,}$/.test(v) || 'Password must contain at least one special character (including underscore) and be at least 8 characters long',
+      ],
     };
   },
   methods: {
@@ -131,13 +65,7 @@ export default {
           this.message = 'passwordMismatch';
           return;
         }
-          // Make sure the API endpoint for user registration is correct
-          const registrationResponse = await axios.post('/register', {
-          username: this.username,
-          email: this.email,
-          full_name: this.full_name,
-          password: this.password,
-        });
+
         // Make the API call to check if the username exists
         const usernameCheckResponse = await axios.post('/checkusername', {
           username: this.username,
@@ -148,13 +76,48 @@ export default {
           // Username is not available
           console.error('Username already exists');
           this.message = 'usernameTaken';
-          return; 
+          return;
         }
+
+        // Make the API call to check if the email is already taken
+        const emailCheckResponse = await axios.post('/checkemail', {
+          email: this.email,
+        });
+
+        // Handle the response from the email check
+        if (!emailCheckResponse.data.available) {
+          // Email is not available
+          console.error('Email already taken');
+          this.message = 'emailTaken';
+          return;
+        }
+
+        // Make the API call to check if the full name is already taken
+        const fullNameCheckResponse = await axios.post('/checkfullname', {
+          full_name: this.full_name,
+        });
+
+        // Handle the response from the full name check
+        if (!fullNameCheckResponse.data.available) {
+          // Full name is not available
+          console.error('Full name already taken');
+          this.message = 'fullNameTaken';
+          return;
+        }
+
+        // Proceed with user registration
+        const registrationResponse = await axios.post('/register', {
+          username: this.username,
+          email: this.email,
+          full_name: this.full_name,
+          password: this.password,
+        });
 
         // Handle the response from the backend registration
         if (registrationResponse.data.success) {
           // Registration successful
           console.log('Registration successful');
+          this.registrationSuccess = true;
           // You can redirect or show a success message here
         } else {
           // Registration failed for some reason
@@ -164,10 +127,10 @@ export default {
       } catch (error) {
         // Handle other errors, such as network issues or server errors
         console.error('An error occurred during registration:', error);
-        this.message = 'error';
+        this
+        .message = 'error';
       }
     },
   },
 };
 </script>
-
