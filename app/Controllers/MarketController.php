@@ -24,10 +24,22 @@ class MarketController extends ResourceController
             'stores' => $stores,
             'products' => $products,
         ];
-
+    
         // Respond with the combined data
         return $this->respond($combinedData, 200);
         //check if there is a data in the data bse
         // var_dump($combinedData);
     }
-}
+        public function insertProduct(){
+            $json = $this->request->getJSON();
+            $data = [
+        'media_url' =>$json->media_url,
+        'product_name'=>$json->product_name,
+        'description'=>$json->description,
+        'price'=>$json->price,
+            ];
+            $evt = new ProductModel();
+            $r=$evt->save($data);
+            return $this->respond($r,200);
+        }
+    }
