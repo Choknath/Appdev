@@ -15,7 +15,7 @@
           
           <v-card class="profile-card">
             <v-card-text>
-              <div class="mx-auto text-center">
+              <div class="mx-auto text-center"> 
                 <v-avatar color="teal" size="120">
                   <span class="text-h5">{{ user.full_name}}</span>
                 </v-avatar>
@@ -45,9 +45,9 @@
           </v-row>
         </v-menu>
       </v-row>
-
+       <v-card-actions>
       <router-link to="/ProfEvent" class="d-block mt-2">ADD EVENT</router-link>
-
+    </v-card-actions>
       
        <!-- Bottom Navigation -->
        <v-bottom-navigation v-model="value" color="teal" grow>
@@ -71,11 +71,7 @@
           <div class="text">Profile</div>
         </v-btn>
       </v-bottom-navigation>
-      
-      <v-btn>
-        <v-icon> <!-- Add your icon here -->
-        </v-icon>
-      </v-btn>
+
     </v-container>
   </div>
 </template>

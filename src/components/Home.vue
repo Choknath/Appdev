@@ -1,35 +1,48 @@
 <template>
-  <body>
-    <div>
-      <!-- Profile Container -->
-      <v-container class="profile-container">
-        <v-row justify="content-start">
-          <v-menu min-width="200%" rounded>
-            <template v-slot:activator="{ props }">
-              <v-btn icon v-bind="props" size="120" @click="redirectToPostPage">
-                <!-- <img :src="user.profile_picture_url" alt="Profile"> -->
+  <v-container class="main-container">
+    <!-- User Profile Container -->
+    <v-container class="profile-container">
+      <v-row justify="content-start">
+        <v-menu min-width="200%" rounded>
+          <template v-slot:activator="{ props }">
+            <v-btn icon v-bind="props" size="120" @click="redirectToProfile">
+              <!-- <img :src="user.profile_picture_url" alt="Profile"> -->
+            </v-btn>
+            <v-text-field v-model="journey" label="How's your journey" @click="redirectToPostPage"></v-text-field>
+            <v-avatar size="150">
+              <span class="text-h5">{{ posts.username }}</span>
+            </v-avatar>
+          </template>
+        </v-menu>
+      </v-row>
+    </v-container>
+
+    <!-- List of Posts -->
+    <v-container class="posts-container">
+      <v-row>
+        <v-col v-for="post in posts" :key="post.id" cols="12">
+          <v-card>
+            <!-- <v-img :src="post.profile_picture_url" :alt="post.event.name"></v-img> -->
+            <v-card-title>{{ post.username }}</v-card-title>
+            <v-card-title>{{ post.event_name }}</v-card-title>
+            <v-card-title>{{ post.title }}</v-card-title>
+            <v-card-text>{{ post.content }}</v-card-text>
+            <v-card-text>{{ post.created_at }}</v-card-text>
+            <div class="post-actions">
+              <v-btn icon @click="likePost(post.post_id)">
+                <v-icon>mdi-thumb-up</v-icon>
               </v-btn>
-              <v-text-field v-model="journey" label="How's your journey" @click="redirectToPostPage"></v-text-field>
-              <v-avatar size="150">
-                <span class="text-h5">{{ posts.username }}</span>
-              </v-avatar>
-            </template>
-          </v-menu>
-        </v-row>
-      </v-container>
-
-      <!-- News Feed -->
-      <v-skeleton :loading="loading" :avatar="avatarLoading" :title="titleLoading" :lines="3">
-        <div v-for="post in posts" :key="post.id" class="post">
-          <!-- Post Content -->
-          <div class="post-content">
-            <!-- ... (unchanged) ... -->
-          </div>
-        </div>
-      </v-skeleton>
-
-      <!-- Bottom Navigation -->
-      <v-bottom-navigation v-model="value" color="teal" grow>
+              <v-btn icon @click="toggleCommentTextarea(post.post_id)">
+                <v-icon>mdi-comment-outline</v-icon>
+              </v-btn>
+            </div>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-container>
+   <!-- Bottom Navigation -->
+   <v-bottom-navigation v-model="value" color="teal" grow>
         <v-btn to="/Home">
           <v-icon>mdi-account-group</v-icon>
           <div class="text">Community</div>
@@ -50,52 +63,75 @@
           <div class="text">Profile</div>
         </v-btn>
       </v-bottom-navigation>
-    </div>
-  </body>
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
-      posts: [],
       journey: '',
-      loading: false, // Add if needed
-      avatarLoading: false, // Add if needed
-      titleLoading: false, // Add if needed
-      value: 0, // Add if needed for v-bottom-navigation
+      posts: [],
     };
   },
-  methods: {
-    redirectToPostPage() {
-      // Use Vue Router to navigate to postpage.vue
-      this.$router.push('/postpage');
-    },
-    // ... (other methods)
+  created(){
+    this.getposts();
   },
-  created() {
-    // Fetch posts from your CodeIgniter API
-    // fetch('http://your-api-url/auth')
-    //   .then((response) => response.json())
-    //   .then((data) => {
-    //     this.posts = data;
-    //   })
-    //   .catch((error) => {
-    //     console.error('Error fetching posts: ', error);
-    //   });
+  methods: {
+    async getposts(){
+      try {
+        const response = await axios.get('/content');
+        this.posts = response.data
+        console.log(response.data);
+          this.posts = response.data.map(post => ({
+            ...post,
+            showCommentTextarea: false,
+            comment: '',
+          }));
+        
+      } catch (error) {
+        console.error('Error fetching events:', error);
+      }
+
+    },
+    redirectToPostPage() {
+      this.$router.push('/CreatePost');
+    },
+    redirectToProfile(){
+      this.$router.push('/Profile');
+    },
+    likePost(postId) {
+        // Handle liking the post, e.g., make an API call to update the like count
+        console.log(`Liked post with ID ${postId}`);
+      },
+      toggleCommentTextarea(postId) {
+        const postIndex = this.posts.findIndex(post => post.post_id === postId);
+        if (postIndex !== -1) {
+          this.posts[postIndex] = {
+            ...this.posts[postIndex],
+            showCommentTextarea: !this.posts[postIndex].showCommentTextarea,
+          };
+        }
+      },
   },
 };
 </script>
 
 <style scoped>
-  .placeholder {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Adjust the height as needed */
-    background-color: #ccc; /* Adjust the background color as needed */
-    border-radius: 50%;
-  }
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-container {
+  width: 100%;
+  padding: 16px;
+}
+
+.posts-container {
+  width: 100%;
+  padding: 16px;
+}
 </style>

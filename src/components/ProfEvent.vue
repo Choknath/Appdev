@@ -27,7 +27,7 @@
           </v-row>
   
           <!-- Add Event Button -->
-          <v-btn type="submit">submit</v-btn>
+          <v-btn type="submit"  @click="redirectToEvent">submit</v-btn>
         </v-form>
   
         <!-- Bottom Navigation -->
@@ -55,6 +55,9 @@
     }
    },
    methods:{
+    redirectToEvent(){
+      this.$router.push('/HomeEvent');
+    },
     async save() {
     try {
         const response = await axios.post('/addEvent', {

@@ -1,8 +1,10 @@
 <template>
   <div>
+    <v-skeleton-loader :elevation="24" type="card">
     <!-- Event Page -->
     <v-container>
       <!-- Event List -->
+      
       <v-row>
         <v-col v-for="(event, index) in events" :key="index" cols="12" md="4">
           <v-card>
@@ -28,7 +30,9 @@
           </v-card-actions>
         </v-card>
       </v-dialog>
+    
     </v-container>
+  </v-skeleton-loader>
 
     
      <!-- Bottom Navigation -->
@@ -69,7 +73,6 @@ export default {
         event_description: "",
         event_location: "",
         event_date: "",
-     
         dialog: false,
       },
       value: 0,
@@ -78,6 +81,7 @@ export default {
   created() {
     this.getevents();
     this.$router = useRouter(); // Assuming you are using Vue Router
+    
   },
   methods: {
     async getevents() {
@@ -95,6 +99,7 @@ export default {
     closeEventDetails() {
       this.selectedEvent.dialog = false;
     },
+    
   },
 };
 </script>
