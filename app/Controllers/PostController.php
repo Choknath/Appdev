@@ -26,7 +26,7 @@ class PostController extends ResourceController {
 
     public function ContentPost(){
         $cont = new PostModel();
-        $pst = $cont->findall();
+        $pst = $cont->join('users','posts.user_id=users.user_id', 'inner')->findall();
         return $this->respond($pst, 200);
     }
 

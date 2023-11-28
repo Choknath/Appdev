@@ -21,7 +21,7 @@ class UserController extends ResourceController
                  'user_id' => $userData['user_id'],
                  'username' => $userData['username'],
                  'full_name' => $userData['full_name'],
-                 'email' => $userData['email'],
+                 'email' => $userData['email'], 
                  // Add other relevant user data here
              ];
          } else {
@@ -132,14 +132,14 @@ class UserController extends ResourceController
         return $this->respond(['available' => $available]);
     }
         
-        public function checkFullNameAvailability()
-        {
-            $user = new UserModel();
-            $full_name = $this->request->getVar('full_name');
-            $existingUser = $user->where('full_name', $full_name)->first();
-            $available = !$existingUser;
-            return $this->respond(['available' => $available]);
-        }
+        // public function checkFullNameAvailability()
+        // {
+        //     $user = new UserModel();
+        //     $full_name = $this->request->getVar('full_name');
+        //     $existingUser = $user->where('full_name', $full_name)->first();
+        //     $available = !$existingUser;
+        //     return $this->respond(['available' => $available]);
+        // }
         
     private function generateVerificationToken($length)
     {
@@ -163,7 +163,7 @@ class UserController extends ResourceController
     
     public function UpdateInfo()
     {
-        // logic para sa pag uupdata ng username, email, bio , password,
+        
     }
       
     
