@@ -30,12 +30,6 @@
           <v-btn type="submit"  @click="redirectToEvent">submit</v-btn>
         </v-form>
   
-        <!-- Bottom Navigation -->
-        <v-bottom-navigation v-model="value" color="teal" grow>
-          <!-- ... (existing bottom navigation buttons) ... -->
-        </v-bottom-navigation>
-  
-       
       </v-container>
     </div>
   </template>
@@ -56,7 +50,7 @@
    },
    methods:{
     redirectToEvent(){
-      this.$router.push('/HomeEvent');
+      this.$router.push('/ProfEvent');
     },
     async save() {
     try {

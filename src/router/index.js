@@ -12,7 +12,8 @@ const routes = [
   //   // route level code-splitting
   //   // this generates a separate chunk (about.[hash].js) for this route
   //   // which is lazy-loaded when the route is visited.
-     component: () => import(/* webpackChunkName: "about" */ '../views/RegistrationPage.vue')
+     component: () => import(/* webpackChunkName: "about" */ '../views/RegistrationPage.vue'),
+     meta:{requiredAuth: true}
    },
   {
     path: '/Home',
@@ -27,14 +28,16 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/HomeView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/HomeView.vue'),
+    meta:{requiredAuth: true}
   },
   {
     path: '/Market',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/MarketPage.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/MarketPage.vue'),
+    meta:{requiredAuth: true}
   },
   {
   path: '/Profile',
@@ -46,14 +49,22 @@ const routes = [
   },
   {
     path: '/EditProf',
-    component: () => import(/* webpackChunkName: "about" */ '../views/EditProfile.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/EditProfile.vue'),
+    meta:{requiredAuth: true}
   },
   {
     path: '/ProfEvent',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Eventprofile.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Eventprofile.vue'),
+    meta:{requiredAuth: true}
+  },
+  
+  {
+    path: '/Events',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Profevent.vue'),
+    meta:{requiredAuth: true}
   },
   
 
