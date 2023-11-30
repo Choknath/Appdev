@@ -59,6 +59,7 @@ export default {
   },
   methods: {
     async register() {
+      // console.log('okas  naman ')
       try {
         // Check if passwords match
         if (this.password !== this.passwordConfirm) {
@@ -92,18 +93,18 @@ export default {
           return;
         }
 
-        // Make the API call to check if the full name is already taken
-        const fullNameCheckResponse = await axios.post('/checkfullname', {
-          full_name: this.full_name,
-        });
+        // // Make the API call to check if the full name is already taken
+        // const fullNameCheckResponse = await axios.post('/checkfullname', {
+        //   full_name: this.full_name,
+        // });
 
-        // Handle the response from the full name check
-        if (!fullNameCheckResponse.data.available) {
-          // Full name is not available
-          console.error('Full name already taken');
-          this.message = 'fullNameTaken';
-          return;
-        }
+        // // Handle the response from the full name check
+        // if (!fullNameCheckResponse.data.available) {
+        //   // Full name is not available
+        //   console.error('Full name already taken');
+        //   this.message = 'fullNameTaken';
+        //   return;
+        // }
 
         // Proceed with user registration
         const registrationResponse = await axios.post('/register', {

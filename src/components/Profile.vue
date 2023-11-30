@@ -4,10 +4,7 @@
     <v-container class="profile-container">
       <v-row justify="center">
         <v-menu min-width="200%" rounded>
-          <template v-slot:activator="{ props }">
-            <v-avatar  size="150">
-              <span class="text-h5">{{ user.username }}</span>
-            </v-avatar>
+          <template v-slot:activator="{ props }"> 
             <v-btn icon v-bind="props" size="120">
               <img :src="user.profile_picture_url" alt="Profile">
             </v-btn>
@@ -15,7 +12,7 @@
           
           <v-card class="profile-card">
             <v-card-text>
-              <div class="mx-auto text-center">
+              <div class="mx-auto text-center"> 
                 <v-avatar color="teal" size="120">
                   <span class="text-h5">{{ user.full_name}}</span>
                 </v-avatar>
@@ -28,29 +25,15 @@
               </div>
             </v-card-text>
           </v-card>
-
-          <!-- Event List -->
-          <v-row>
-            <v-col v-for="(event, index) in events" :key="index" cols="12" md="4">
-              <v-card>
-                <v-img :src="event.event_image_url || 'fallback_image_url.jpg'" alt="event.name"></v-img>
-                <v-card-title>{{ event.event_name }}</v-card-title>
-                <v-card-subtitle>{{ event.event_date }}</v-card-subtitle>
-                <v-card-text>{{ event.event_description }}</v-card-text>
-                <v-card-actions>
-                  <v-btn @click="viewEventDetails(index)">View Details</v-btn>
-                </v-card-actions>
-              </v-card>
-            </v-col>
-          </v-row>
         </v-menu>
       </v-row>
-
-      <router-link to="/ProfEvent" class="d-block mt-2">ADD EVENT</router-link>
-
+      <v-row justify="center" class="mt-3"> <!-- Added margin-top for spacing -->
+        <v-btn class="mx-2" to="/Markets">Maket</v-btn>
+        <v-btn class="mx-2" to="/Events">Events</v-btn>
+      </v-row>
       
-       <!-- Bottom Navigation -->
-       <v-bottom-navigation v-model="value" color="teal" grow>
+      <!-- Bottom Navigation -->
+      <v-bottom-navigation v-model="value" color="teal" grow>
         <v-btn to="/Home">
           <v-icon>mdi-account-group</v-icon>
           <div class="text">Community</div>
@@ -71,11 +54,7 @@
           <div class="text">Profile</div>
         </v-btn>
       </v-bottom-navigation>
-      
-      <v-btn>
-        <v-icon> <!-- Add your icon here -->
-        </v-icon>
-      </v-btn>
+
     </v-container>
   </div>
 </template>
@@ -88,18 +67,6 @@ export default {
     return {
       value: 0,
       user: {},
-      events: [],
-      selectedEvent: {
-        name: "",
-        date: "",
-        description: "",
-        dialog: false,
-      },
-      newEvent: {
-        name: "",
-        date: "",
-        description: "",
-      },
     };
   },
   created() {
