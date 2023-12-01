@@ -69,8 +69,6 @@ $method=$_SERVER['REQUEST_METHOD'];
 if($method=="OPTIONS"){
     die();
 }
-
-
 $app = Config\Services::codeigniter();
 $app->initialize();
 $context = is_cli() ? 'php-cli' : 'web';

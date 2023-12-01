@@ -161,12 +161,6 @@ class UserController extends ResourceController
         // var_dump($data);
     } 
     
-    public function UpdateInfo()
-    {
-        
-    }
-      
-    
     public function logout()
     {
         // Your logout logic here, e.g., destroying the session
@@ -174,6 +168,11 @@ class UserController extends ResourceController
 
         // You can also redirect to the login page or any other page after logout
         return $this->response->setJSON(['message' => 'Logout successful']);
+    }
+
+    public function updateProfile()
+    {
+        
     }
     
 }

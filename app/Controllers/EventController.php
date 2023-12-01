@@ -28,4 +28,12 @@ class EventController extends ResourceController
         $r=$evt->save($data);
         return $this->respond($r,200);
     }
+    public function postEvent($id = null){
+        $post = new PostModel();
+        $cnt = $post->join('users', 'events.user_id=users.user_id')->where('verification_token', $id)->findAll();
+        return $this->respond($cnt, 200);
+    }
+
+
+    
 }

@@ -26,5 +26,6 @@ class ProfileController extends ResourceController
             return $this->failNotFound('User not found');
         }
         return $this->respond($userData, 200);
+    }   
     }
-}
+       
