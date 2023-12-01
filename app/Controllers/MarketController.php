@@ -42,7 +42,4 @@ class MarketController extends ResourceController
             $r=$evt->save($data);
             return $this->respond($r,200);
         }
-
-
-        
     }
