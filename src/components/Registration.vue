@@ -4,7 +4,10 @@
       <v-sheet width="300" class="mx-auto">
         <v-form fast-fail @submit.prevent="register" class="text-center">
           <div v-if="message === 'error'">Invalid response</div>
-          <div v-if="registrationSuccess">Registration successful!</div>
+          
+          <div v-if="registrationSuccess" class="success-message">
+            Registration successful! You can now log in.
+          </div>
 
           <v-text-field v-model="username" label="Username" :rules="usernameRules"></v-text-field>
           <v-text-field v-model="email" label="Email" :rules="emailRules"></v-text-field>
@@ -19,7 +22,7 @@
           <div v-if="message === 'passwordRequirements'">Password must contain at least one special character and be at least 8 characters long</div>
 
           <v-btn type="submit" block class="mt-2">Submit</v-btn>
-          <router-link to="/">Login</router-link>
+          <v-btn to="/" block class="mt-4"> Login</v-btn>
 
         </v-form>
       </v-sheet>
@@ -59,7 +62,6 @@ export default {
   },
   methods: {
     async register() {
-      // console.log('okas  naman ')
       try {
         // Check if passwords match
         if (this.password !== this.passwordConfirm) {
@@ -93,19 +95,6 @@ export default {
           return;
         }
 
-        // // Make the API call to check if the full name is already taken
-        // const fullNameCheckResponse = await axios.post('/checkfullname', {
-        //   full_name: this.full_name,
-        // });
-
-        // // Handle the response from the full name check
-        // if (!fullNameCheckResponse.data.available) {
-        //   // Full name is not available
-        //   console.error('Full name already taken');
-        //   this.message = 'fullNameTaken';
-        //   return;
-        // }
-
         // Proceed with user registration
         const registrationResponse = await axios.post('/register', {
           username: this.username,
@@ -128,10 +117,17 @@ export default {
       } catch (error) {
         // Handle other errors, such as network issues or server errors
         console.error('An error occurred during registration:', error);
-        this
-        .message = 'error';
+        this.message = 'error';
       }
     },
   },
 };
 </script>
+
+<style scoped>
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+</style>

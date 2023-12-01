@@ -1,3 +1,5 @@
+<!-- pag mamaay ari ni Profile Page ito -->
+
 <template>
     <div>
       <!-- News Feed -->
