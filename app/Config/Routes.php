@@ -19,5 +19,8 @@ $routes->get('/Event', 'EventController::getevent');
 $routes->post('/addEvent', 'EventController::addEvent');
 $routes->get('/content', 'PostController::ContentPost');
 $routes ->get('/Logout','UserController::logout');
-$routes ->post('/insertProduct','MarketController::insertProduct');
+$routes->get('/displayevent/(:any)', 'EventController::postEvent/$1');
+
+
+
 
