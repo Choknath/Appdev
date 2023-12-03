@@ -1,3 +1,5 @@
+<!-- pag mamayari din ito ni ProfilePage -->
+
 <template>
   <div>
     <!-- Profile Container -->
