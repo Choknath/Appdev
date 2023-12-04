@@ -67,6 +67,11 @@ const routes = [
     meta:{requiredAuth: true}
   },
   
+  {
+    path: '/Messages',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Comm.vue'),
+    meta:{requiredAuth: true}
+  },
 
 ]
 
