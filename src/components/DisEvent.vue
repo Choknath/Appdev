@@ -79,7 +79,7 @@ export default {
       // Handle the error, e.g., show an error message to the user
       throw error;
     }
-  },
+  },  
       viewEventDetails(index) {
       this.selectedEvent = { ...this.events[index], dialog: true };
     },

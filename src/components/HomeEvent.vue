@@ -34,29 +34,33 @@
     </v-container>
   </v-skeleton-loader>
 
-    
-     <!-- Bottom Navigation -->
-     <v-bottom-navigation v-model="value" color="teal" grow>
-        <v-btn to="/Home">
-          <v-icon>mdi-account-group</v-icon>
-          <div class="text">Community</div>
-        </v-btn>
+   <!-- Bottom Navigation -->
+   <v-bottom-navigation v-model="value" color="teal" grow>
+    <v-btn to="/Home">
+      <v-icon>mdi-account-group</v-icon>
+      <div class="text" v-if="isLargeScreen">Community</div>
+    </v-btn>
 
-        <v-btn to="/Market">
-          <v-icon>mdi-shopping</v-icon>
-          <div class="text">Market</div>
-        </v-btn>
+    <v-btn to="/Market">
+      <v-icon>mdi-shopping</v-icon>
+      <div class="text" v-if="isLargeScreen">Market</div>
+    </v-btn>
 
-        <v-btn to="/Event">
-          <v-icon>mdi-calendar</v-icon>
-          <div class="text">Event</div>
-        </v-btn>
+    <v-btn to="/Event">
+      <v-icon>mdi-calendar</v-icon>
+      <div class="text" v-if="isLargeScreen">Event</div>
+    </v-btn>
 
-        <v-btn to="/Profile">
-          <v-icon>mdi-account</v-icon>
-          <div class="text">Profile</div>
-        </v-btn>
-      </v-bottom-navigation>
+    <v-btn to="/Messages">
+      <v-icon>mdi-message</v-icon>
+      <div class="text" v-if="isLargeScreen">Messages</div>
+    </v-btn>
+
+    <v-btn to="/Profile">
+      <v-icon>mdi-account</v-icon>
+      <div class="text" v-if="isLargeScreen">Profile</div>
+    </v-btn>
+  </v-bottom-navigation>
   </div>
 </template>
 
@@ -79,11 +83,24 @@ export default {
     };
   },
   created() {
+
     this.getevents();
     this.$router = useRouter(); // Assuming you are using Vue Router
+    this.checkScreenSize();
+  
+      // Add a listener for screen size changes
+      window.addEventListener('resize', this.checkScreenSize);
     
   },
+  destroyed() {
+      // Remove the listener when the component is destroyed
+      window.removeEventListener('resize', this.checkScreenSize);
+  },
   methods: {
+    checkScreenSize() {
+        // Update isLargeScreen based on the screen width
+        this.isLargeScreen = window.innerWidth >= 768; // Adjust the breakpoint as needed
+    },
     async getevents() {
       try {
         const response = await axios.get('/Event');
