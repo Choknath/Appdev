@@ -16,18 +16,25 @@ class EventController extends ResourceController
     }
     public function addEvent()
     {
+        // Get the logged-in user's ID. Adjust this based on your authentication mechanism.
+        $user_id = 'user_id'; // Replace with the actual user ID
+    
         $json = $this->request->getJSON();
         $data = [
-    'event_name' =>$json->event_name,
-    'event_description'=>$json->event_description,
-    'event_date'=>$json->event_date,
-    'event_location'=>$json->event_location,
-    'event_image_url'=>$json->event_image_url,
+            'event_name' => $json->event_name,
+            'event_description' => $json->event_description,
+            'event_date' => $json->event_date,
+            'event_location' => $json->event_location,
+            'event_image_url' => $json->event_image_url,
+            'user_id' => $user_id, // Add the user_id to associate the event with a user
         ];
+    
         $evt = new EventModel();
-        $r=$evt->save($data);
-        return $this->respond($r,200);
+        $r = $evt->save($data);
+    
+        return $this->respond($r, 200);
     }
+    
     public function postEvent($id = null){
         $post = new EventModel();
         $cnt = $post->join('users', 'events.user_id=users.user_id')->where('verification_token', $id)->findAll();
