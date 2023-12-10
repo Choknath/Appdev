@@ -6,40 +6,43 @@ use App\Controllers\BaseController;
 use CodeIgniter\Restful\ResourceController;
 use App\Models\StoreModel;
 use App\Models\ProductModel;
+use App\Models\UserModel;
 
 class MarketController extends ResourceController
 {
-    public function getData()
-    {
-        // Retrieve and display a list of stores
-        $storeModel = new StoreModel();
-        $stores = $storeModel->find(1);
-
-        // Retrieve and display a list of products
-        $productModel = new ProductModel();
-        $products = $productModel->find(1);
-
-        // You might want to combine the data before responding
-        $combinedData = [
-            'stores' => $stores,
-            'products' => $products,
-        ];
-    
-        // Respond with the combined data
-        return $this->respond($combinedData, 200);
-        //check if there is a data in the data bse
-        // var_dump($combinedData);
+  
+    public function getItmes(){
+        $ent = new ProductModel();
+        $data = $ent->findAll();
+        return $this->respond($data, 200);
     }
-        public function insertProduct(){
-            $json = $this->request->getJSON();
-            $data = [
-        'media_url' =>$json->media_url,
-        'product_name'=>$json->product_name,
-        'description'=>$json->description,
-        'price'=>$json->price,
-            ];
-            $evt = new ProductModel();
-            $r=$evt->save($data);
-            return $this->respond($r,200);
-        }
+
+
+    public function insertProduct()
+{
+    $user = new UserModel(); 
+    $json = $this->request->getJSON();
+    $u = $user->where('verification_token', $json->verification_token)->first();
+
+    $data = [
+        'user_id' => $u['user_id'],
+        'media_url' => $json->product_image_url,
+        'product_name' => $json->product_name,
+        'description' => $json->product_description,
+        'price' => $json->product_price,
+    ];
+
+    $productModel = new ProductModel();
+    $response = $productModel->save($data);
+
+    return $this->respond($response, 200);
+    }
+
+     //sasarili mong Post na evenna makikita sa profile mo 
+     public function ownitems($id = null){
+        $post = new ProductModel();
+        $cnt = $post->join('users', 'products.product_id=users.user_id')->where('verification_token', $id)->findAll();
+        return $this->respond($cnt, 200);
+    }
+
     }

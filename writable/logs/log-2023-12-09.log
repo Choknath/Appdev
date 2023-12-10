@@ -1,0 +1,125 @@
+CRITICAL - 2023-12-09 10:49:33 --> Undefined property: stdClass::$media_url
+in APPPATH\Controllers\MarketController.php on line 37.
+ 1 APPPATH\Controllers\MarketController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$media_url', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MarketController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 10:52:10 --> Class "App\Controllers\ProductMode" not found
+in APPPATH\Controllers\MarketController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 10:52:26 --> Class "App\Controllers\ProductMode" not found
+in APPPATH\Controllers\MarketController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 10:55:09 --> Class "App\Controllers\ProductMode" not found
+in APPPATH\Controllers\MarketController.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-09 10:57:02 --> mysqli_sql_exception: Unknown column 'verification_token' in 'where clause' in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Appdev\app\Controllers\MarketController.php(36): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-09 10:57:02 --> Unknown column 'verification_token' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `verification_token` = :verification_token:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\MarketController.php(36): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-09 10:57:11 --> mysqli_sql_exception: Unknown column 'verification_token' in 'where clause' in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Appdev\app\Controllers\MarketController.php(36): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-09 10:57:11 --> Unknown column 'verification_token' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `verification_token` = :verification_token:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\MarketController.php(36): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-09 10:58:42 --> mysqli_sql_exception: Unknown column 'verification_token' in 'where clause' in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Appdev\app\Controllers\MarketController.php(37): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+#8 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Appdev\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-09 10:58:42 --> Unknown column 'verification_token' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `verification_token` = :verification_token:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\MarketController.php(37): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 11:09:29 --> Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\MarketController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 11:19:26 --> Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\MarketController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 11:20:00 --> Undefined property: stdClass::$media_url
+in APPPATH\Controllers\MarketController.php on line 44.
+ 1 APPPATH\Controllers\MarketController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$media_url', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MarketController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MarketController->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MarketController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()

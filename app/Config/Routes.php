@@ -10,6 +10,14 @@ $routes->get('/market/getData', 'MarketController::getData');
 $routes->get('/userprofile/(:any)','ProfileController::status/$1');
 $routes->get('/Users', 'UserController::showuser');
 $routes->post('/register', 'USerController::register');
+
+
+
+//inserting of itmes
+$routes->post('/insertProduct', 'MarketController::insertProduct');
+//pag kuha lahat ng items
+$routes->get('/Items', 'MarketController::getItmes');
+
 //chech kung may user na na nakapag register
 $routes->post('/checkusername', 'USerController::checkUsernameAvailability');
 //check kung nagamit na yung email 

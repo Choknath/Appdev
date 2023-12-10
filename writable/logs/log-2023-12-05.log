@@ -1,0 +1,147 @@
+ERROR - 2023-12-05 04:01:00 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`userdata`.`events`, CONSTRAINT `events_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)) in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ev...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Appdev\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Appdev\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Appdev\app\Controllers\EventController.php(33): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+#10 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#11 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Appdev\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-05 04:01:00 --> Cannot add or update a child row: a foreign key constraint fails (`userdata`.`events`, CONSTRAINT `events_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `events` (`event_name`, `event_description`, `event_date`, `user_id`) VALUES (:event_name:, :event_description:, :event_date:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EventController.php(33): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-05 04:01:38 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`userdata`.`events`, CONSTRAINT `events_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)) in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ev...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Appdev\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Appdev\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Appdev\app\Controllers\EventController.php(33): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+#10 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#11 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Appdev\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-05 04:01:38 --> Cannot add or update a child row: a foreign key constraint fails (`userdata`.`events`, CONSTRAINT `events_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `events` (`event_name`, `event_description`, `event_date`, `user_id`) VALUES (:event_name:, :event_description:, :event_date:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EventController.php(33): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-05 04:01:42 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`userdata`.`events`, CONSTRAINT `events_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`)) in C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Appdev\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ev...', 0)
+#1 C:\laragon\www\Appdev\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ev...')
+#2 C:\laragon\www\Appdev\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ev...')
+#3 C:\laragon\www\Appdev\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ev...', Array, false)
+#4 C:\laragon\www\Appdev\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Appdev\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Appdev\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\Appdev\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\Appdev\app\Controllers\EventController.php(33): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\Appdev\system\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+#10 C:\laragon\www\Appdev\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+#11 C:\laragon\www\Appdev\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Appdev\public\index.php(85): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-05 04:01:42 --> Cannot add or update a child row: a foreign key constraint fails (`userdata`.`events`, CONSTRAINT `events_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`))
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `events` (`event_name`, `event_description`, `event_date`, `user_id`) VALUES (:event_name:, :event_description:, :event_date:, :user_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EventController.php(33): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 04:07:01 --> Undefined property: stdClass::$user_id
+in APPPATH\Controllers\EventController.php on line 23.
+ 1 APPPATH\Controllers\EventController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 04:10:03 --> Undefined property: stdClass::$user_id
+in APPPATH\Controllers\EventController.php on line 23.
+ 1 APPPATH\Controllers\EventController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 04:10:54 --> Undefined property: stdClass::$user_id
+in APPPATH\Controllers\EventController.php on line 37.
+ 1 APPPATH\Controllers\EventController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 04:11:00 --> Undefined property: stdClass::$user_id
+in APPPATH\Controllers\EventController.php on line 37.
+ 1 APPPATH\Controllers\EventController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 04:11:31 --> Undefined property: stdClass::$user_id
+in APPPATH\Controllers\EventController.php on line 37.
+ 1 APPPATH\Controllers\EventController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 04:11:49 --> Undefined property: stdClass::$user_id
+in APPPATH\Controllers\EventController.php on line 37.
+ 1 APPPATH\Controllers\EventController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 04:11:50 --> Undefined property: stdClass::$user_id
+in APPPATH\Controllers\EventController.php on line 37.
+ 1 APPPATH\Controllers\EventController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 04:11:52 --> Undefined property: stdClass::$user_id
+in APPPATH\Controllers\EventController.php on line 37.
+ 1 APPPATH\Controllers\EventController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-05 04:13:23 --> Undefined property: stdClass::$user_id
+in APPPATH\Controllers\EventController.php on line 37.
+ 1 APPPATH\Controllers\EventController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
