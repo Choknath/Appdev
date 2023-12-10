@@ -53,8 +53,10 @@
       this.$router.push('/ProfEvent');
     },
     async save() {
+      const a = sessionStorage.getItem('verification_token');
     try {
         const response = await axios.post('/addEvent', {
+            verification_token: a,
             event_name: this.event_name,
             event_description: this.event_description,
             event_date: this.event_date,

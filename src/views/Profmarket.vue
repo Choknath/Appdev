@@ -1,6 +1,5 @@
 <template>
-    <Eventprof/>
-    <DisEvent/>
+    <Profmaket/>
  
   </template>
   
@@ -8,15 +7,14 @@
   import { defineComponent } from 'vue';
   
   // Components
-  import Eventprof from '../components/Evetnprof.vue';
-  import DisEvent from '../components/DisEvent.vue';
-
   
+  import Profmaket from '../components/Profmaket.vue';
+ 
   export default defineComponent({
-    name: 'Profevent',
+    name: 'Profmarket',
   
     components: {
-      Eventprof, DisEvent
+      Profmaket
     },
   });
   </script>

@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1 class="text-center">EVENTS</h1>
     <v-skeleton-loader :elevation="24" type="card">
     <!-- Event Page -->
     <v-container>

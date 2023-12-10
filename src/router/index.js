@@ -48,14 +48,6 @@ const routes = [
   meta:{requiredAuth: true}
   },
   {
-    path: '/ProdForm',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/ProductFormView.vue'),
-    meta:{requiredAuth: true}
-    },
-  {
     path: '/EditProf',
     component: () => import(/* webpackChunkName: "about" */ '../views/EditProfile.vue'),
     meta:{requiredAuth: true}
@@ -80,6 +72,19 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Comm.vue'),
     meta:{requiredAuth: true}
   },
+
+  {
+    path: '/Products',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Formmark.vue'),
+    meta:{requiredAuth: true}
+  },
+
+  {
+    path: '/Items',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Profmarket.vue'),
+    meta:{requiredAuth: true}
+  },
+
 
 ]
 

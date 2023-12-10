@@ -30,7 +30,7 @@
         </v-menu>
       </v-row>
       <v-row justify="center" class="mt-3"> <!-- Added margin-top for spacing -->
-        <v-btn class="mx-2" to="/Markets">Maket</v-btn>
+        <v-btn class="mx-2" to="/Items">Market</v-btn>
         <v-btn class="mx-2" to="/Events">Events</v-btn>
       </v-row>
       

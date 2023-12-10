@@ -1,8 +1,6 @@
 <template>
   <div>
-    <br>
-    <br>
-    <h1>Market place</h1>
+    <h1 class="text-center">ITEMS</h1>
 
     <v-container>
       <!-- Product Catalog -->
@@ -13,28 +11,27 @@
             <v-card-title>{{ product.product_name }}</v-card-title>
             <v-card-subtitle>{{ product.description }}</v-card-subtitle>
             <v-card-actions>
-              <v-btn @click="addToCart(product)">Add to Cart</v-btn>
-              <v-btn @click="openModal(index)">View Details</v-btn>
+              <v-btn @click="chatToSeller(product)">Chat to Seller</v-btn>
+              <v-btn @click="viewProductDetails(index)">View Details</v-btn>
             </v-card-actions>
           </v-card>
 
           <!-- Modal for each product -->
-          <v-dialog v-model="product.dialog" max-width="600">
+          <v-dialog v-model="selectedProduct.dialog" max-width="600">
             <v-card>
-              <v-card-title>{{ product.product_name }}</v-card-title>
-              <v-card-subtitle>{{ product.description }}</v-card-subtitle>
-              <v-card-text>Price: ${{ product.price.toFixed(2) }}</v-card-text>
+              <v-card-title>{{ selectedProduct.product_name }}</v-card-title>
+              <v-card-subtitle>{{ selectedProduct.description }}</v-card-subtitle>
+              <v-card-text>{{ selectedProduct.price }}</v-card-text>
               <v-card-actions>
-                <v-btn @click="closeModal(index)">Close</v-btn>
+                <v-btn @click="closeProductDetails">Close</v-btn>
               </v-card-actions>
             </v-card>
           </v-dialog>
         </v-col>
       </v-row>
     </v-container>
-
     
-   <!-- Bottom Navigation -->
+     <!-- Bottom Navigation -->
    <v-bottom-navigation v-model="value" color="teal" grow>
     <v-btn to="/Home">
       <v-icon>mdi-account-group</v-icon>
@@ -65,47 +62,53 @@
 </template>
 
 <script>
+import axios from 'axios';
+import { useRouter } from 'vue-router';
+
 export default {
   data() {
     return {
+      products: [],
+      selectedProduct: {
+        product_name: "",
+        description: "",
+        price: "",
+        dialog: false,
+      },
       value: 0,
-      product: [],
     };
   },
   created() {
-    // Check the screen size on component creation
+    this.getProducts();
+    this.$router = useRouter();
     this.checkScreenSize();
-  
-  // Add a listener for screen size changes
-  window.addEventListener('resize', this.checkScreenSize);
-    this.getprod();
+    window.addEventListener('resize', this.checkScreenSize);
+    this.getProducts();
   },
   destroyed() {
-      // Remove the listener when the component is destroyed
-      window.removeEventListener('resize', this.checkScreenSize);
-    },
+    window.removeEventListener('resize', this.checkScreenSize);
+  },
   methods: {
     checkScreenSize() {
-        // Update isLargeScreen based on the screen width
-        this.isLargeScreen = window.innerWidth >= 768; // Adjust the breakpoint as needed
-      },
-    async getprod() {
+      this.isLargeScreen = window.innerWidth >= 768;
+    },
+    async getProducts() {
       try {
-        const response = await axios.get('/market/getData'); // Use the correct API endpoint
-        this.product = response.data;
+        const response = await axios.get('/Items');
+        this.products = response.data;
       } catch (error) {
         console.log(error);
       }
     },
-    addToCart(product) {
-      // Implement cart functionality here
-      console.log(`Added ${product.product_name} to the cart.`);
+    chatToSeller(product) {
+      console.log(`Chatting to the seller of ${product.product_name}`);
+      // Implement chat to seller functionality here
     },
-    openModal(index) {
-      this.products[index].dialog = true;
+    viewProductDetails(index) {
+      this.selectedProduct = { ...this.products[index], dialog: true };
     },
-    closeModal(index) {
-      this.products[index].dialog = false;
+    closeProductDetails() {
+      this.selectedProduct.dialog = false;
     },
   },
 };

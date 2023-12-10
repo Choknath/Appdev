@@ -96,7 +96,11 @@ export default {
       },
     async getProfile() {
       try {
-       
+        const id = sessionStorage.getItem("verification_token")
+        const response = await axios.get(`/userprofile/${id}`, {
+          id: id
+        });
+        this.user = response.data.info;
       } catch (error) {
         console.log(error);
       }
