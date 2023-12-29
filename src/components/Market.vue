@@ -1,8 +1,10 @@
 <template>
   <div>
-    <h1 class="text-center">ITEMS</h1>
-
     <v-container>
+      <v-row justify="center" class="mt-3"> <!-- Added margin-top for spacing -->
+        <v-btn class="mx-2" to="/Market">Trade in</v-btn>
+        <v-btn class="mx-2" to="/Shops">Store</v-btn>
+      </v-row>
       <!-- Product Catalog -->
       <v-row>
         <v-col v-for="(product, index) in products" :key="index" cols="12" md="4">
@@ -10,9 +12,8 @@
             <v-img :src="product.media_url" alt="product.name"></v-img>
             <v-card-title>{{ product.product_name }}</v-card-title>
             <v-card-subtitle>{{ product.description }}</v-card-subtitle>
-            <v-card-actions>
-              <v-btn @click="chatToSeller(product)">Chat to Seller</v-btn>
-              <v-btn @click="viewProductDetails(index)">View Details</v-btn>
+            <v-card-actions justify="center">
+              <v-btn  @click="viewProductDetails(index)">View Details</v-btn>
             </v-card-actions>
           </v-card>
 
@@ -100,10 +101,7 @@ export default {
         console.log(error);
       }
     },
-    chatToSeller(product) {
-      console.log(`Chatting to the seller of ${product.product_name}`);
-      // Implement chat to seller functionality here
-    },
+    
     viewProductDetails(index) {
       this.selectedProduct = { ...this.products[index], dialog: true };
     },

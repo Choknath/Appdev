@@ -1,69 +1,115 @@
 <template>
-  <v-container fluid>
-    <v-row justify="center">
-      <v-col cols="12" sm="8" md="6" lg="4">
-        <v-card class="edit-profile-card">
-          <v-card-title class="text-h5">Edit Profile</v-card-title>
-          <v-card-text>
-            <v-form ref="profileForm">
-              <v-text-field v-model="editedProfile.fullName" label="Full Name"></v-text-field>
-              <v-text-field v-model="editedProfile.email" label="Email"></v-text-field>
-              <v-textarea v-model="editedProfile.bio" label="Bio"></v-textarea>
-
-              <v-divider class="my-4"></v-divider>
-
-              <!-- Input field for updating profile picture -->
-              <v-file-input v-model="editedProfile.profilePicture" label="Profile Picture"></v-file-input>
-
-              <v-text-field
-                v-model="editedProfile.currentPassword"
-                label="Current Password"
-                type="password"
-              ></v-text-field>
-              <v-text-field v-model="editedProfile.newPassword" label="New Password" type="password"></v-text-field>
-              <v-text-field v-model="editedProfile.confirmPassword" label="Confirm Password" type="password"></v-text-field>
-            </v-form>
-          </v-card-text>
-          <v-card-actions>
-            <v-btn @click="saveChanges" color="primary">Save Changes</v-btn>
-            <v-btn @click="goBack">Cancel</v-btn>
-          </v-card-actions>
-        </v-card>
-      </v-col>
-    </v-row>
-  </v-container>
+  <div>
+    <v-container>
+      <v-row justify="center">
+        <v-col cols="12" md="8">
+          <v-card>
+            <v-card-title>Edit Profile</v-card-title>
+            <v-card-text>
+              <!-- Edit Profile Form -->
+              <v-form @submit.prevent="handleUploadAndSave">
+                <!-- Add input fields for each editable property -->
+                <v-text-field v-model="editedUser.full_name" label="Full Name"></v-text-field>
+                <v-text-field v-model="editedUser.email" label="Email"></v-text-field>
+                <v-textarea v-model="editedUser.bio" label="Bio"></v-textarea>
+                <input type="file" ref="fileInput" @change="handleFileChange" />
+                <div v-if="previewUrl">
+                  <h4>Preview:</h4>
+                  <img :src="previewUrl" alt="File Preview" />
+                </div>
+                <v-btn class="mx-3" type="submit" color="primary">Upload and Save Changes</v-btn>
+              </v-form>
+            </v-card-text>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </div>
 </template>
 
- 
 <script>
 import axios from 'axios';
+
 export default {
   data() {
     return {
-      editedProfile: {
-        fullName: '',
-        email: '',
-        bio: '',
-        profilePicture: null, // Store the selected file
-        currentPassword: '',
-        newPassword: '',
-        confirmPassword: '',
-      },
+      editedUser: {},
+      previewUrl: null,
     };
   },
+  created() {
+    this.getProfile();
+  },
   methods: {
-    async Update(){
-    
+    handleFileChange() {
+      const fileInput = this.$refs.fileInput;
+      const file = fileInput.files[0];
+
+      if (file) {
+        this.displayFilePreview(file);
+      } else {
+        this.previewUrl = null;
+        console.error('No file selected');
+      }
     },
-    saveChanges() {
-      // Add logic to save changes to the profile, including the profile picture
-      console.log('Changes saved!', this.editedProfile);
-      // After saving, you can navigate back to the profile page
-      this.$router.push('/profile');
+    displayFilePreview(file) {
+      const reader = new FileReader();
+
+      reader.onload = (event) => {
+        this.previewUrl = event.target.result;
+      };
+
+      reader.readAsDataURL(file);
     },
-    goBack() {
-      // Add logic to handle cancel or navigate back to the profile page without saving
-      this.$router.push('/profile');
+    handleUploadAndSave() {
+      this.uploadFile();
+      this.submitForm();
+    },
+    uploadFile() {
+      const fileInput = this.$refs.fileInput;
+      const file = fileInput.files[0];
+
+      if (file) {
+        this.uploadFileToServer(file);
+      } else {
+        this.previewUrl = null;
+        console.error('No file selected');
+      }
+    },
+    uploadFileToServer(file) {
+      const formData = new FormData();
+      formData.append('file', file);
+
+      axios
+        .post('/user/uploadFile', formData, {
+          headers: {
+            'Content-Type': 'multipart/form-data',
+          },
+        })
+        .then((response) => {
+          console.log('File uploaded successfully', response.data);
+        })
+        .catch((error) => {
+          console.error('Error uploading file', error);
+        });
+    },
+    async getProfile() {
+      try {
+        const id = sessionStorage.getItem('verification_token');
+        const response = await axios.get(`/userprofile/${id}`);
+        this.editedUser = { ...response.data.info }; // Copy the user object to avoid modifying the original
+      } catch (error) {
+        console.log(error);
+      }
+    },
+    async submitForm() {
+      try {
+        const id = sessionStorage.getItem('verification_token');
+        await axios.put(`/updateProfile/${id}`, this.editedUser);
+        this.$router.push('/Profile');
+      } catch (error) {
+        console.log(error);
+      }
     },
   },
 };

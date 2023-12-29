@@ -25,14 +25,18 @@
                   Edit Profile
                 </v-btn>
               </div>
-            </v-card-text>
+            </v-card-text>  
           </v-card>
         </v-menu>
       </v-row>
       <v-row justify="center" class="mt-3"> <!-- Added margin-top for spacing -->
-        <v-btn class="mx-2" to="/Items">Market</v-btn>
+        <v-btn class="mx-2" to="/Items">Shop</v-btn>
         <v-btn class="mx-2" to="/Events">Events</v-btn>
+        <v-btn outlined class="logout-btn" @click="logout">
+    Logout
+  </v-btn>
       </v-row>
+      
       
         <!-- Bottom Navigation -->
     <v-bottom-navigation v-model="value" color="teal" grow>
@@ -94,6 +98,19 @@ export default {
         // Update isLargeScreen based on the screen width
         this.isLargeScreen = window.innerWidth >= 768; // Adjust the breakpoint as needed
       },
+      async logout() {
+    try {
+      // Assuming you have an endpoint in your backend to handle logout
+      await axios.post('/logout');
+      
+      // Clear the sessionStorage and navigate to the login page or home page
+      sessionStorage.removeItem("verification_token");
+      this.$router.push('/'); // Adjust the route as needed
+    } catch (error) {
+      console.error(error);
+    }
+  },
+
     async getProfile() {
       try {
         const id = sessionStorage.getItem("verification_token")

@@ -11,7 +11,10 @@
               <v-text-field v-model="password" label="Password" type="password"></v-text-field>
 
               <v-btn type="submit" block class="mt-3">Login</v-btn>
-              <router-link to="/Registration" class="d-block mt-2">Register</router-link>
+              <div class="d-flex justify-content-between">
+                <router-link to="/Registration" class="d-block mt-2">Register</router-link>
+                <router-link to="/ForgotPassword" class="d-block mt-2">Forgot Password?</router-link>
+              </div>
             </v-form>
           </v-sheet>
         </v-col>
@@ -19,7 +22,7 @@
     </v-container>
   </div>
 </template>
-
+ 
 <script>
 import axios from 'axios';
 import router from '@/router';
@@ -47,7 +50,38 @@ export default {
         }
 
       
-    }, 
+    },
+    
+    // async login() {
+    //   try {
+    //     const res = await axios.post('/login', {
+    //       username: this.username,
+    //       password: this.password,
+    //     });
+
+    //     if (res.data.msg === 'okay') {
+    //       const token = res.data.token;
+    //       const userRole = res.data.user.role; // Assuming the server sends the user role in the response
+
+    //       sessionStorage.setItem("verification_token", token);
+
+    //       // Redirect based on user role
+    //       if (userRole === 'user') {
+    //         router.push('/Home');
+    //       } else if (userRole === 'admin') {
+    //         router.push('/AdminPage');
+    //       } else {
+    //         // Handle other roles or scenarios
+    //       }
+    //     } else {
+    //       // Handle other response scenarios if needed
+    //     }
+    //   } catch (error) {
+    //     console.error('Login error:', error);
+    //     // Handle error scenarios if needed
+    //   }
+    // },
+      
   },
 };
 </script>
@@ -58,7 +92,7 @@ export default {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  /* background-image: url('c:\Users\Mark Jober Laudencia\Downloads\Community Cyclist Club (2).png'); */
+  
   background-size: cover;
   background-position: center;
 }

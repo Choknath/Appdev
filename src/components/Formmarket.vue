@@ -63,7 +63,11 @@ export default {
         });
 
         console.log(response.data);  // Log the response data
-
+        this.product_name = "",
+        this.product_description = "",
+        this.product_price = "",
+        this.product_category = "",
+        this.product_image_url = ""
         // Handle the response as needed
       } catch (error) {
         console.error('Error:', error);

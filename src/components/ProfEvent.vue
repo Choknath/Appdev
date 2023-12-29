@@ -65,6 +65,11 @@
         });
 
         console.log(response.data);  // Log the response data
+        this.event_name = "",
+        this.event_description = "",
+        this.event_date = "",
+        this.event_location = "",
+        this.event_image_url = ""
 
         // Handle the response as needed
     } catch (error) {
@@ -83,4 +88,4 @@
   @import '../assets/asset/css/Profile.css';
   /* Additional styling for the event page, if needed */
   </style>
-  
+    

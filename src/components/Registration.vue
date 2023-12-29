@@ -36,13 +36,13 @@ import axios from 'axios';
 export default {
   data() {
     return {
-      username: '',
+       username: '',
       email: '',
       full_name: '',
       password: '',
       passwordConfirm: '',
       message: null,
-      registrationSuccess: false,
+      registrationSuccess: true,
       usernameRules: [
         (v) => !!v || 'Username is required',
         (v) => (v && v.length >= 4) || 'Username must be at least 4 characters',

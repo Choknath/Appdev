@@ -28,47 +28,57 @@
             <v-card-title>{{ post.title }}</v-card-title>
             <v-card-text>{{ post.content }}</v-card-text>
             <v-card-text>{{ post.created_at }}</v-card-text>
-            <div class="post-actions">
-              <v-btn icon @click="likePost(post.post_id)">
-                <v-icon>mdi-thumb-up</v-icon>
-              </v-btn>
-              <v-btn icon @click="toggleCommentTextarea(post.post_id)">
-                <v-icon>mdi-comment-outline</v-icon>
-              </v-btn>
+
+            <div class="post-header">
+              <!-- Like and Comment Buttons -->
+              <div class="post-actions">
+                <v-btn icon @click="likePost(post.id)">
+                  <v-icon>mdi-thumb-up</v-icon>
+                </v-btn>
+                <v-btn icon @click="toggleCommentTextarea(post.id)">
+                  <v-icon>mdi-comment-outline</v-icon>
+                </v-btn>
+              </div>
+
+              <!-- Comment Textarea -->
+              <v-textarea v-if="post.showCommentTextarea" v-model="post.comment" label="Add a comment"></v-textarea>
+
+              <!-- Submit Button for Comments -->
+              <v-btn v-if="post.showCommentTextarea" @click="submitComment(post.id)">Submit</v-btn>
             </div>
           </v-card>
         </v-col>
       </v-row>
     </v-container>
+
+    <!-- Bottom Navigation -->
+    <v-bottom-navigation v-model="value" color="teal" grow>
+      <v-btn to="/Home">
+        <v-icon>mdi-account-group</v-icon>
+        <div class="text" v-if="isLargeScreen">Community</div>
+      </v-btn>
+
+      <v-btn to="/Market">
+        <v-icon>mdi-shopping</v-icon>
+        <div class="text" v-if="isLargeScreen">Market</div>
+      </v-btn>
+
+      <v-btn to="/Event">
+        <v-icon>mdi-calendar</v-icon>
+        <div class="text" v-if="isLargeScreen">Event</div>
+      </v-btn>
+
+      <v-btn to="/Messages">
+        <v-icon>mdi-message</v-icon>
+        <div class="text" v-if="isLargeScreen">Messages</div>
+      </v-btn>
+
+      <v-btn to="/Profile">
+        <v-icon>mdi-account</v-icon>
+        <div class="text" v-if="isLargeScreen">Profile</div>
+      </v-btn>
+    </v-bottom-navigation>
   </v-container>
-   <!-- Bottom Navigation -->
-   <v-bottom-navigation v-model="value" color="teal" grow>
-    <v-btn to="/Home">
-      <v-icon>mdi-account-group</v-icon>
-      <div class="text" v-if="isLargeScreen">Community</div>
-    </v-btn>
-
-    <v-btn to="/Market">
-      <v-icon>mdi-shopping</v-icon>
-      <div class="text" v-if="isLargeScreen">Market</div>
-    </v-btn>
-
-    <v-btn to="/Event">
-      <v-icon>mdi-calendar</v-icon>
-      <div class="text" v-if="isLargeScreen">Event</div>
-    </v-btn>
-
-    <v-btn to="/Messages">
-      <v-icon>mdi-message</v-icon>
-      <div class="text" v-if="isLargeScreen">Messages</div>
-    </v-btn>
-
-    <v-btn to="/Profile">
-      <v-icon>mdi-account</v-icon>
-      <div class="text" v-if="isLargeScreen">Profile</div>
-    </v-btn>
-  </v-bottom-navigation>
-
 </template>
 
 <script>
@@ -79,59 +89,73 @@ export default {
     return {
       journey: '',
       posts: [],
+      isLargeScreen: true,
     };
   },
-  created(){
+  created() {
     this.checkScreenSize();
-  
-  // Add a listener for screen size changes
-  window.addEventListener('resize', this.checkScreenSize);
-    this.getposts();
+    window.addEventListener('resize', this.checkScreenSize);
+    this.getPosts();
   },
   destroyed() {
-      // Remove the listener when the component is destroyed
-      window.removeEventListener('resize', this.checkScreenSize);
-    },
+    window.removeEventListener('resize', this.checkScreenSize);
+  },
   methods: {
     checkScreenSize() {
-        // Update isLargeScreen based on the screen width
-        this.isLargeScreen = window.innerWidth >= 768; // Adjust the breakpoint as needed
-      },
-    async getposts(){
+      this.isLargeScreen = window.innerWidth >= 768;
+    },
+    async getPosts() {
       try {
         const response = await axios.get('/content');
-        this.posts = response.data
-        console.log(response.data);
-          this.posts = response.data.map(post => ({
-            ...post,
-            showCommentTextarea: false,
-            comment: '',
-          }));
-        
+        this.posts = response.data.map(post => ({
+          ...post,
+          showCommentTextarea: false,
+          comment: '',
+        }));
       } catch (error) {
-        console.error('Error fetching events:', error);
+        console.error('Error fetching posts:', error);
       }
-
     },
     redirectToPostPage() {
       this.$router.push('/CreatePost');
     },
-    redirectToProfile(){
+    redirectToProfile() {
       this.$router.push('/Profile');
     },
-    likePost(postId) {
-        // Handle liking the post, e.g., make an API call to update the like count
+    async likePost(postId) {
+      try {
+        await axios.post(`/likePost/${postId}/${userId}`);
         console.log(`Liked post with ID ${postId}`);
-      },
-      toggleCommentTextarea(postId) {
-        const postIndex = this.posts.findIndex(post => post.post_id === postId);
-        if (postIndex !== -1) {
+      } catch (error) {
+        console.error('Error liking post:', error);
+      }
+    },
+    toggleCommentTextarea(postId) {
+      const postIndex = this.posts.findIndex(post => post.id === postId);
+      if (postIndex !== -1) {
+        this.posts[postIndex] = {
+          ...this.posts[postIndex],
+          showCommentTextarea: !this.posts[postIndex].showCommentTextarea,
+        };
+      }
+    },
+    async submitComment(postId) {
+      const postIndex = this.posts.findIndex(post => post.id === postId);
+      if (postIndex !== -1) {
+        const comment = this.posts[postIndex].comment;
+        try {
+          await axios.post(`/submitComment/${postId}/${userId}/${comment}`);
+          console.log(`Submitted comment for post with ID ${postId}: ${comment}`);
           this.posts[postIndex] = {
             ...this.posts[postIndex],
-            showCommentTextarea: !this.posts[postIndex].showCommentTextarea,
+            showCommentTextarea: false,
+            comment: '',
           };
+        } catch (error) {
+          console.error('Error submitting comment:', error);
         }
-      },
+      }
+    },
   },
 };
 </script>
@@ -151,5 +175,10 @@ export default {
 .posts-container {
   width: 100%;
   padding: 16px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
 }
 </style>

@@ -13,7 +13,7 @@ const routes = [
   //   // this generates a separate chunk (about.[hash].js) for this route
   //   // which is lazy-loaded when the route is visited.
      component: () => import(/* webpackChunkName: "about" */ '../views/RegistrationPage.vue'),
-     meta:{requiredAuth: true}
+   
    },
   {
     path: '/Home',
@@ -85,6 +85,43 @@ const routes = [
     meta:{requiredAuth: true}
   },
 
+  {
+    path: '/CreatePost',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Postmeida.vue'),
+    meta:{requiredAuth: true}
+  },
+
+  {
+    path: '/CreateShop',
+    component: () => import(/* webpackChunkName: "about" */ '../views/CreateShop.vue'),
+    meta:{requiredAuth: true}
+  },
+
+  {
+    path: '/Shops',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ShopPage.vue'),
+    meta:{requiredAuth: true}
+  },
+
+  {
+    path: '/test1',
+    component: () => import(/* webpackChunkName: "about" */ '../views/test1.vue'),
+    meta:{requiredAuth: true}
+  },
+
+  //  {
+  //   path: '/CreateShop',
+  //   component: () => import(/* webpackChunkName: "about" */ '../views/CreateShop.vue'),
+  //   meta:{requiredAuth: true}
+  // },
+
+  {
+    path: '/Forgotpassword',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ForgotPassword.vue'),
+ 
+  },
+
+
 
 ]
 
@@ -99,7 +136,7 @@ router.beforeEach((to, from, next) => {
   if (!isLoggedin) {
     next('/');
   } else {
-    next();
+    next( );
   }
  }else{
   next();

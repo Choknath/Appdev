@@ -1,5 +1,6 @@
 <template>
     <Profmaket/>
+  
  
   </template>
   
@@ -9,12 +10,14 @@
   // Components
   
   import Profmaket from '../components/Profmaket.vue';
+
  
   export default defineComponent({
     name: 'Profmarket',
   
     components: {
       Profmaket
+
     },
   });
   </script>
