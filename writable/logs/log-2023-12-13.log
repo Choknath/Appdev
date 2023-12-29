@@ -1,0 +1,47 @@
+CRITICAL - 2023-12-13 14:06:26 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\ProfileController.php(44): CodeIgniter\Model->update('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 14:07:22 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 4 APPPATH\Controllers\ProfileController.php(44): CodeIgniter\Model->update('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j', [])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 14:08:49 --> Class "App\Models\YourModel" not found
+in APPPATH\Controllers\ProfileController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 14:51:15 --> Undefined property: stdClass::$postContent
+in APPPATH\Controllers\PostController.php on line 35.
+ 1 APPPATH\Controllers\PostController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$postContent', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\PostController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->PostMedia()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 14:51:15 --> Undefined property: stdClass::$postContent
+in APPPATH\Controllers\PostController.php on line 35.
+ 1 APPPATH\Controllers\PostController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$postContent', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\PostController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->PostMedia()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-13 15:00:05 --> Undefined property: stdClass::$content
+in APPPATH\Controllers\PostController.php on line 35.
+ 1 APPPATH\Controllers\PostController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$content', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\PostController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PostController->PostMedia()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()

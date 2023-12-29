@@ -1,0 +1,252 @@
+CRITICAL - 2023-12-14 02:39:10 --> Undefined property: stdClass::$verification_token
+in APPPATH\Controllers\MessageController.php on line 35.
+ 1 APPPATH\Controllers\MessageController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$verification_token', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 02:46:23 --> Undefined property: stdClass::$receiver_id
+in APPPATH\Controllers\MessageController.php on line 40.
+ 1 APPPATH\Controllers\MessageController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$receiver_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 03:00:25 --> Undefined property: stdClass::$user_id
+in APPPATH\Controllers\MessageController.php on line 40.
+ 1 APPPATH\Controllers\MessageController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$user_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 03:21:38 --> CodeIgniter\RESTful\ResourceController::respondCreated(): Argument #2 ($message) must be of type string, array given, called in C:\laragon\www\Appdev\app\Controllers\MessageController.php on line 40
+in SYSTEMPATH\API\ResponseTrait.php on line 149.
+ 1 APPPATH\Controllers\MessageController.php(40): CodeIgniter\RESTful\ResourceController->respondCreated(Object(App\Models\MessageModel), [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:42 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:43 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:43 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:44 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:44 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:44 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:44 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:44 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:44 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:44 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:45 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:45 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:45 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 10:59:45 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:16 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:16 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:16 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:16 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:17 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:17 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:21 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:21 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:21 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:22 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:22 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:22 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:22 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:22 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:00:22 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:04:02 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:04:02 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 11:04:02 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()

@@ -16,27 +16,28 @@ class MarketController extends ResourceController
         $data = $ent->findAll();
         return $this->respond($data, 200);
     }
-
-
+    
     public function insertProduct()
-{
-    $user = new UserModel(); 
-    $json = $this->request->getJSON();
-    $u = $user->where('verification_token', $json->verification_token)->first();
+   {
+         $user = new UserModel(); 
+        $json = $this->request->getJSON();
+        $u = $user->where('verification_token', $json->verification_token)->first();
 
-    $data = [
-        'user_id' => $u['user_id'],
-        'media_url' => $json->product_image_url,
-        'product_name' => $json->product_name,
-        'description' => $json->product_description,
-        'price' => $json->product_price,
-    ];
+        $data = 
+        [
+             'user_id' => $u['user_id'],
+             'media_url' => $json->product_image_url,
+             'product_name' => $json->product_name,
+             'description' => $json->product_description,
+             'price' => $json->product_price,
+         ];
 
-    $productModel = new ProductModel();
-    $response = $productModel->save($data);
+             $productModel = new ProductModel();
+            $response = $productModel->save($data);
 
-    return $this->respond($response, 200);
+         return $this->respond($response, 200);
     }
+
 
      //sasarili mong Post na evenna makikita sa profile mo 
      public function ownitems($id = null){
@@ -45,4 +46,23 @@ class MarketController extends ResourceController
         return $this->respond($cnt, 200);
     }
 
+    public function CreateStore()
+    {
+    $user = new UserModel(); 
+    $json = $this->request->getJSON();
+    $u = $user->where('verification_token', $json->verification_token)->first();
+
+    $data = [
+        'user_id' => $u['user_id'],
+        'store_name' => $json->store_name,
+        'location' => $json->location,
+       
+    ];
+
+    $StoreModel = new StoreModel();
+    $response = $StoreModel->save($data);
+
+    return $this->respond($response, 200);
     }
+
+}

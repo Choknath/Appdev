@@ -1,0 +1,70 @@
+CRITICAL - 2023-12-19 13:28:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 23.
+ 1 APPPATH\Controllers\MessageController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 13:29:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 23.
+ 1 APPPATH\Controllers\MessageController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 14:24:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 20.
+ 1 APPPATH\Controllers\MessageController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 14:25:53 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 20.
+ 1 APPPATH\Controllers\MessageController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 14:34:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 20.
+ 1 APPPATH\Controllers\MessageController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 14:37:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 20.
+ 1 APPPATH\Controllers\MessageController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 15:01:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 20.
+ 1 APPPATH\Controllers\MessageController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 15:01:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 20.
+ 1 APPPATH\Controllers\MessageController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 15:06:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 20.
+ 1 APPPATH\Controllers\MessageController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-19 15:12:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 20.
+ 1 APPPATH\Controllers\MessageController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()

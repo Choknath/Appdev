@@ -1,0 +1,60 @@
+CRITICAL - 2023-12-18 00:37:56 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\UserController.php(43): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->uploadFile()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 05:06:16 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\UserController.php(43): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\UserController->uploadFile()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 12:02:56 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 12:02:56 --> Undefined property: stdClass::$event_name
+in APPPATH\Controllers\EventController.php on line 29.
+ 1 APPPATH\Controllers\EventController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$event_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\EventController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EventController->addEvent()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EventController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 12:22:22 --> Undefined property: stdClass::$receiver_id
+in APPPATH\Controllers\MessageController.php on line 32.
+ 1 APPPATH\Controllers\MessageController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$receiver_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 12:22:46 --> Undefined property: stdClass::$receiver_id
+in APPPATH\Controllers\MessageController.php on line 32.
+ 1 APPPATH\Controllers\MessageController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$receiver_id', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 14:13:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 25.
+ 1 APPPATH\Controllers\MessageController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-18 14:29:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\MessageController.php on line 22.
+ 1 APPPATH\Controllers\MessageController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\MessageController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MessageController->sendMessage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MessageController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,266 @@
+CRITICAL - 2023-12-11 04:45:58 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 04:46:24 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 04:46:36 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 04:46:38 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 04:46:47 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 04:50:18 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 04:50:25 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 04:57:19 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 04:59:42 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 04:59:59 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 05:04:45 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 05:08:49 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 05:08:54 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 05:08:56 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 05:09:14 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 05:09:16 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 05:09:20 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 05:09:21 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 05:52:27 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 06:26:31 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 06:26:35 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 06:26:50 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 06:27:12 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 06:29:20 --> Attempt to read property "full_name" on null
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "full_name" on null', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile('vcmzM45WYyoC12nbXa6iukpAK0ZdhFQVNfEtLwDIO3USlHBG9j')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 09:32:23 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 09:34:20 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 09:34:50 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 09:44:03 --> Undefined property: stdClass::$verification_token
+in APPPATH\Controllers\ProfileController.php on line 42.
+ 1 APPPATH\Controllers\ProfileController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$verification_token', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 09:44:06 --> Undefined property: stdClass::$verification_token
+in APPPATH\Controllers\ProfileController.php on line 42.
+ 1 APPPATH\Controllers\ProfileController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$verification_token', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 09:44:44 --> Undefined property: stdClass::$verification_token
+in APPPATH\Controllers\ProfileController.php on line 42.
+ 1 APPPATH\Controllers\ProfileController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$verification_token', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 09:45:29 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 09:45:44 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 09:45:50 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 09:46:08 --> Undefined property: stdClass::$full_name
+in APPPATH\Controllers\ProfileController.php on line 52.
+ 1 APPPATH\Controllers\ProfileController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$full_name', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 10:00:35 --> Undefined property: stdClass::$verificationToken
+in APPPATH\Controllers\ProfileController.php on line 42.
+ 1 APPPATH\Controllers\ProfileController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$verificationToken', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 10:01:31 --> Undefined property: stdClass::$verificationToken
+in APPPATH\Controllers\ProfileController.php on line 42.
+ 1 APPPATH\Controllers\ProfileController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$verificationToken', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 12:23:43 --> Undefined property: stdClass::$verificationToken
+in APPPATH\Controllers\ProfileController.php on line 42.
+ 1 APPPATH\Controllers\ProfileController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$verificationToken', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-11 13:25:23 --> Undefined property: stdClass::$verificationToken
+in APPPATH\Controllers\ProfileController.php on line 42.
+ 1 APPPATH\Controllers\ProfileController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$verificationToken', 'C:\\laragon\\www\\Appdev\\app\\Controllers\\ProfileController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProfileController->updateProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(85): CodeIgniter\CodeIgniter->run()
